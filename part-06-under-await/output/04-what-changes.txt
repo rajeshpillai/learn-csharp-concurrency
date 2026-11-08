@@ -1,0 +1,19 @@
+  <InnerAsync>d__2.MoveNext
+  AsyncMethodBuilderCore.Start
+  AsyncTaskMethodBuilder.Start
+  Chain.InnerAsync
+  <MiddleAsync>d__1.MoveNext
+  AsyncMethodBuilderCore.Start
+  AsyncTaskMethodBuilder.Start
+  Chain.MiddleAsync
+  <OuterAsync>d__0.MoveNext
+  AsyncMethodBuilderCore.Start
+  AsyncTaskMethodBuilder.Start
+  Chain.OuterAsync
+  <<Main>$>d__0.MoveNext
+  AsyncMethodBuilderCore.Start
+  AsyncTaskMethodBuilder.Start
+  Program.<Main>$
+  Program.<Main>
+17 frames on the stack
+100,000 calls, each: 286 bytes, 1,325 ns

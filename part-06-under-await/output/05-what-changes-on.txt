@@ -1,0 +1,7 @@
+  Chain.InnerAsync
+  Chain.MiddleAsync
+  Chain.OuterAsync
+  Program.<Main>$
+  Program.<Main>
+5 frames on the stack
+100,000 calls, each: 168 bytes, 697 ns

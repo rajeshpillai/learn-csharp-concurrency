@@ -1,0 +1,261 @@
+using System;
+using System.Diagnostics;
+using System.IO;
+using System.Net;
+using System.Net.Sockets;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Versioning;
+using System.Threading;
+using System.Threading.Tasks;
+
+[assembly: CompilationRelaxations(8)]
+[assembly: RuntimeCompatibility(WrapNonExceptionThrows = true)]
+[assembly: Debuggable(DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
+[assembly: TargetFramework(".NETCoreApp,Version=v11.0", FrameworkDisplayName = ".NET 11.0")]
+[assembly: AssemblyCompany("readloop")]
+[assembly: AssemblyConfiguration("Release")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyInformationalVersion("1.0.0+517b64cefd3be293a6832a3cc5f2216fc5e354e8")]
+[assembly: AssemblyProduct("readloop")]
+[assembly: AssemblyTitle("readloop")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[module: RefSafetyRules(11)]
+[CompilerGenerated]
+internal class Program
+{
+  [StructLayout(LayoutKind.Auto)]
+  [CompilerGenerated]
+  private struct <<<Main>$>g__ServeAsync|0_0>d : IAsyncStateMachine
+  {
+    public int <>1__state;
+
+    public AsyncTaskMethodBuilder<int> <>t__builder;
+
+    public TcpClient client;
+
+    private StreamReader <reader>5__2;
+
+    private int <count>5__3;
+
+    private TaskAwaiter<string?> <>u__1;
+
+    private void MoveNext()
+    {
+      int num = <>1__state;
+      int result2;
+      try
+      {
+        if (num != 0)
+        {
+          <reader>5__2 = new StreamReader(client.GetStream());
+          <count>5__3 = 0;
+          Console.WriteLine(Here.Where() + "  waiting for a line");
+          goto IL_003b;
+        }
+        TaskAwaiter<string> awaiter = <>u__1;
+        <>u__1 = default;
+        num = (<>1__state = -1);
+        goto IL_0094;
+        IL_0094:
+        string result = awaiter.GetResult();
+        if (result != null)
+        {
+          <count>5__3++;
+          Console.WriteLine(Here.Where() + "  got \"" + result + "\"");
+          goto IL_003b;
+        }
+        result2 = <count>5__3;
+        goto end_IL_0007;
+        IL_003b:
+        awaiter = <reader>5__2.ReadLineAsync().GetAwaiter();
+        if (!awaiter.IsCompleted)
+        {
+          num = (<>1__state = 0);
+          <>u__1 = awaiter;
+          <>t__builder.AwaitUnsafeOnCompleted(ref awaiter, ref this);
+          return;
+        }
+        goto IL_0094;
+        end_IL_0007:;
+      }
+      catch (Exception exception)
+      {
+        <>1__state = -2;
+        <reader>5__2 = null;
+        <>t__builder.SetException(exception);
+        return;
+      }
+      <>1__state = -2;
+      <reader>5__2 = null;
+      <>t__builder.SetResult(result2);
+    }
+
+    void IAsyncStateMachine.MoveNext()
+    {
+      //ILSpy generated this explicit interface implementation from .override directive in MoveNext
+      this.MoveNext();
+    }
+
+    [DebuggerHidden]
+    private void SetStateMachine(IAsyncStateMachine stateMachine)
+    {
+      <>t__builder.SetStateMachine(stateMachine);
+    }
+
+    void IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine)
+    {
+      //ILSpy generated this explicit interface implementation from .override directive in SetStateMachine
+      this.SetStateMachine(stateMachine);
+    }
+  }
+
+  [StructLayout(LayoutKind.Auto)]
+  [CompilerGenerated]
+  private struct <<Main>$>d__0 : IAsyncStateMachine
+  {
+    public int <>1__state;
+
+    public AsyncTaskMethodBuilder <>t__builder;
+
+    private TcpClient <client>5__2;
+
+    private TaskAwaiter<TcpClient> <>u__1;
+
+    private TaskAwaiter<int> <>u__2;
+
+    private void MoveNext()
+    {
+      int num = <>1__state;
+      try
+      {
+        TaskAwaiter<TcpClient> awaiter;
+        if (num != 0)
+        {
+          if (num == 1)
+          {
+            goto IL_00b3;
+          }
+          TcpListener tcpListener = new TcpListener(IPAddress.Loopback, 5006);
+          tcpListener.Start();
+          new Thread(<<Main>$>g__Talk|0_1).Start();
+          Console.WriteLine(Here.Where() + "  waiting for a client");
+          awaiter = tcpListener.AcceptTcpClientAsync().GetAwaiter();
+          if (!awaiter.IsCompleted)
+          {
+            num = (<>1__state = 0);
+            <>u__1 = awaiter;
+            <>t__builder.AwaitUnsafeOnCompleted(ref awaiter, ref this);
+            return;
+          }
+        }
+        else
+        {
+          awaiter = <>u__1;
+          <>u__1 = default;
+          num = (<>1__state = -1);
+        }
+        TcpClient result = awaiter.GetResult();
+        <client>5__2 = result;
+        goto IL_00b3;
+        IL_00b3:
+        try
+        {
+          TaskAwaiter<int> awaiter2;
+          if (num != 1)
+          {
+            awaiter2 = <<Main>$>g__ServeAsync|0_0(<client>5__2).GetAwaiter();
+            if (!awaiter2.IsCompleted)
+            {
+              num = (<>1__state = 1);
+              <>u__2 = awaiter2;
+              <>t__builder.AwaitUnsafeOnCompleted(ref awaiter2, ref this);
+              return;
+            }
+          }
+          else
+          {
+            awaiter2 = <>u__2;
+            <>u__2 = default;
+            num = (<>1__state = -1);
+          }
+          int result2 = awaiter2.GetResult();
+          Console.WriteLine($"{Here.Where()}  {result2} lines, the client left");
+        }
+        finally
+        {
+          if (num < 0 && <client>5__2 != null)
+          {
+            ((IDisposable)<client>5__2).Dispose();
+          }
+        }
+      }
+      catch (Exception exception)
+      {
+        <>1__state = -2;
+        <client>5__2 = null;
+        <>t__builder.SetException(exception);
+        return;
+      }
+      <>1__state = -2;
+      <client>5__2 = null;
+      <>t__builder.SetResult();
+    }
+
+    void IAsyncStateMachine.MoveNext()
+    {
+      //ILSpy generated this explicit interface implementation from .override directive in MoveNext
+      this.MoveNext();
+    }
+
+    [DebuggerHidden]
+    private void SetStateMachine(IAsyncStateMachine stateMachine)
+    {
+      <>t__builder.SetStateMachine(stateMachine);
+    }
+
+    void IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine)
+    {
+      //ILSpy generated this explicit interface implementation from .override directive in SetStateMachine
+      this.SetStateMachine(stateMachine);
+    }
+  }
+
+  [AsyncStateMachine(typeof(<<Main>$>d__0))]
+  private static Task <Main>$(string[] args)
+  {
+    <<Main>$>d__0 stateMachine = default;
+    stateMachine.<>t__builder = AsyncTaskMethodBuilder.Create();
+    stateMachine.<>1__state = -1;
+    stateMachine.<>t__builder.Start(ref stateMachine);
+    return stateMachine.<>t__builder.Task;
+  }
+
+  [SpecialName]
+  private static void Main(string[] args)
+  {
+    AsyncHelpers.HandleAsyncEntryPoint(<Main>$(args));
+  }
+
+  [AsyncStateMachine(typeof(<<<Main>$>g__ServeAsync|0_0>d))]
+  [CompilerGenerated]
+  internal static Task<int> <<Main>$>g__ServeAsync|0_0(TcpClient client)
+  {
+    <<<Main>$>g__ServeAsync|0_0>d stateMachine = default;
+    stateMachine.<>t__builder = AsyncTaskMethodBuilder<int>.Create();
+    stateMachine.client = client;
+    stateMachine.<>1__state = -1;
+    stateMachine.<>t__builder.Start(ref stateMachine);
+    return stateMachine.<>t__builder.Task;
+  }
+}
+internal static class Here
+{
+  public static string Where()
+  {
+    Thread currentThread = Thread.CurrentThread;
+    string value = (currentThread.IsThreadPoolThread ? "pool" : (currentThread.Name ?? "main"));
+    return $"thread {currentThread.ManagedThreadId} ({value})";
+  }
+}

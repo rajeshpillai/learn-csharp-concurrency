@@ -1,0 +1,4 @@
+thread 1 (main)  waiting at the door
+thread 4 (postman)  ding dong
+thread 4 (postman)  it was the postman
+thread 4 (postman)  still the postman

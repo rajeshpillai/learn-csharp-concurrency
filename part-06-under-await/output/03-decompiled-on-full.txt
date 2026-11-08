@@ -1,0 +1,90 @@
+using System;
+using System.Diagnostics;
+using System.IO;
+using System.Net;
+using System.Net.Sockets;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.Versioning;
+using System.Threading;
+using System.Threading.Tasks;
+
+[assembly: CompilationRelaxations(8)]
+[assembly: RuntimeCompatibility(WrapNonExceptionThrows = true)]
+[assembly: Debuggable(DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
+[assembly: TargetFramework(".NETCoreApp,Version=v11.0", FrameworkDisplayName = ".NET 11.0")]
+[assembly: AssemblyCompany("readloop")]
+[assembly: AssemblyConfiguration("Release")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyInformationalVersion("1.0.0+517b64cefd3be293a6832a3cc5f2216fc5e354e8")]
+[assembly: AssemblyProduct("readloop")]
+[assembly: AssemblyTitle("readloop")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[module: RefSafetyRules(11)]
+[CompilerGenerated]
+internal class Program
+{
+  [MethodImpl(MethodImplOptions.Async)]
+  private static Task <Main>$(string[] args)
+  {
+    TcpListener tcpListener = new TcpListener(IPAddress.Loopback, 5006);
+    tcpListener.Start();
+    new Thread(Talk).Start();
+    Console.WriteLine(Here.Where() + "  waiting for a client");
+    using (TcpClient client = AsyncHelpers.Await(tcpListener.AcceptTcpClientAsync()))
+    {
+      int value = AsyncHelpers.Await(ServeAsync(client));
+      Console.WriteLine($"{Here.Where()}  {value} lines, the client left");
+    }
+    return (Task)/*Error near IL_00a4: Stack underflow*/;
+    [MethodImpl(MethodImplOptions.Async)]
+    static Task<int> ServeAsync(TcpClient tcpClient)
+    {
+      //IL_0053: Expected Obj, but got I4
+      StreamReader streamReader = new StreamReader(tcpClient.GetStream());
+      int num = 0;
+      Console.WriteLine(Here.Where() + "  waiting for a line");
+      while (true)
+      {
+        string text = AsyncHelpers.Await(streamReader.ReadLineAsync());
+        if (text == null)
+        {
+          break;
+        }
+        num++;
+        Console.WriteLine(Here.Where() + "  got \"" + text + "\"");
+      }
+      return (Task<int>)num;
+    }
+    static void Talk()
+    {
+      Thread.Sleep(200);
+      using TcpClient tcpClient = new TcpClient("127.0.0.1", 5006);
+      StreamWriter streamWriter = new StreamWriter(tcpClient.GetStream())
+      {
+        AutoFlush = true
+      };
+      string[] array = new string[3] { "one", "two", "three" };
+      foreach (string value2 in array)
+      {
+        Thread.Sleep(200);
+        streamWriter.WriteLine(value2);
+      }
+    }
+  }
+
+  [SpecialName]
+  private static void Main(string[] args)
+  {
+    AsyncHelpers.HandleAsyncEntryPoint(<Main>$(args));
+  }
+}
+internal static class Here
+{
+  public static string Where()
+  {
+    Thread currentThread = Thread.CurrentThread;
+    string value = (currentThread.IsThreadPoolThread ? "pool" : (currentThread.Name ?? "main"));
+    return $"thread {currentThread.ManagedThreadId} ({value})";
+  }
+}

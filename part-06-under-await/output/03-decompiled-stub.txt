@@ -1,0 +1,11 @@
+  [AsyncStateMachine(typeof(<<<Main>$>g__ServeAsync|0_0>d))]
+  [CompilerGenerated]
+  internal static Task<int> <<Main>$>g__ServeAsync|0_0(TcpClient client)
+  {
+    <<<Main>$>g__ServeAsync|0_0>d stateMachine = default;
+    stateMachine.<>t__builder = AsyncTaskMethodBuilder<int>.Create();
+    stateMachine.client = client;
+    stateMachine.<>1__state = -1;
+    stateMachine.<>t__builder.Start(ref stateMachine);
+    return stateMachine.<>t__builder.Task;
+  }

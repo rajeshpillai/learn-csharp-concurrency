@@ -1,0 +1,3 @@
+1,000,000 calls, every one a cache hit
+Task<string>:      72 bytes a call
+ValueTask<string>: 0 bytes a call

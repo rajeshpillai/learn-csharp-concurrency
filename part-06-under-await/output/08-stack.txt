@@ -1,0 +1,60 @@
+$ dotnet-stack report -p 2567909
+Thread (0x272EE5):
+  [Native Frames]
+  System.Private.CoreLib!System.Threading.WaitSubsystem+ThreadWaitInfo.Wait(int32,bool,bool,value class LockHolder&)
+  System.Private.CoreLib!System.Threading.WaitSubsystem.Wait(class IWaitableObject,class ThreadWaitInfo,int32,bool)
+  System.Private.CoreLib!System.Threading.WaitHandle.WaitOneNoCheck(int32,bool,class System.Object,value class WaitHandleWaitSourceMap)
+  System.Private.CoreLib!System.Threading.Condition.Wait(int32,class System.Object)
+  System.Private.CoreLib!System.Threading.ManualResetEventSlim.Wait(int32,value class System.Threading.CancellationToken)
+  System.Private.CoreLib!System.Threading.Tasks.Task.SpinThenBlockingWait(int32,value class System.Threading.CancellationToken)
+  System.Private.CoreLib!System.Threading.Tasks.Task.InternalWaitCore(int32,value class System.Threading.CancellationToken)
+  System.Private.CoreLib!System.Threading.Tasks.Task.InternalWait(int32,value class System.Threading.CancellationToken)
+  System.Private.CoreLib!System.Threading.Tasks.Task`1[System.Int32].GetResultCore(bool)
+  readloop!Program+<>c__DisplayClass0_0+<<<Main>$>b__2>d.MoveNext()
+  System.Private.CoreLib!System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.Threading.Tasks.VoidTaskResult,Program+<>c__DisplayClass0_0+<<<Main>$>b__2>d].ExecutionContextCallback(class System.Object)
+  System.Private.CoreLib!System.Threading.ExecutionContext.RunInternal(class System.Threading.ExecutionContext,class System.Threading.ContextCallback,class System.Object)
+  System.Private.CoreLib!System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.Threading.Tasks.VoidTaskResult,Program+<>c__DisplayClass0_0+<<<Main>$>b__2>d].MoveNext(class System.Threading.Thread,value class Flags)
+  System.Private.CoreLib!System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.Threading.Tasks.VoidTaskResult,Program+<>c__DisplayClass0_0+<<<Main>$>b__2>d].MoveNext(class System.Threading.Thread)
+  System.Private.CoreLib!System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.Threading.Tasks.VoidTaskResult,Program+<>c__DisplayClass0_0+<<<Main>$>b__2>d].MoveNext()
+  readloop!MessageLoop+<>c__DisplayClass2_0.<Post>b__0()
+  readloop!MessageLoop.Run(class System.Func`1<class System.Threading.Tasks.Task>)
+  readloop!Program.<Main>$(class System.String[])
+  System.Private.CoreLib!System.Environment.CallEntryPoint(int,class System.String[]*,int32*,bool,class System.Exception*)
+
+Thread (0x272EED):
+  [Native Frames]
+  System.Net.Sockets!Interop+Sys.WaitForSocketEvents(int,value class SocketEvent*,int32*)
+  System.Net.Sockets!System.Net.Sockets.SocketAsyncEngine.EventLoop()
+  System.Private.CoreLib!System.Threading.Thread.StartCallback(class System.Threading.Thread*)
+
+Thread (0x272EF0):
+  [Native Frames]
+  System.Private.CoreLib!System.Threading.WaitSubsystem+ThreadWaitInfo.Wait(int32,bool,bool,value class LockHolder&)
+  System.Private.CoreLib!System.Threading.WaitSubsystem.Wait(class IWaitableObject,class ThreadWaitInfo,int32,bool)
+  System.Private.CoreLib!System.Threading.WaitHandle.WaitOneNoCheck(int32,bool,class System.Object,value class WaitHandleWaitSourceMap)
+  System.Private.CoreLib!System.Threading.TimerQueue.TimerThread()
+  System.Private.CoreLib!System.Threading.Thread.StartCallback(class System.Threading.Thread*)
+
+Thread (0x272EF9):
+  [Native Frames]
+  System.Private.CoreLib!System.Threading.LowLevelLifoSemaphore.Block(int32)
+  System.Private.CoreLib!System.Threading.LowLevelLifoSemaphore.WaitAsWaiter(int32)
+  System.Private.CoreLib!System.Threading.LowLevelLifoSemaphore.WaitSlow(int32)
+  System.Private.CoreLib!System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+  System.Private.CoreLib!System.Threading.Thread.StartCallback(class System.Threading.Thread*)
+
+Thread (0x272EFA):
+  [Native Frames]
+  System.Private.CoreLib!System.Threading.WaitSubsystem+ThreadWaitInfo.Wait(int32,bool,bool,value class LockHolder&)
+  System.Private.CoreLib!System.Threading.WaitSubsystem.Wait(class IWaitableObject,class ThreadWaitInfo,int32,bool)
+  System.Private.CoreLib!System.Threading.WaitHandle.WaitOneNoCheck(int32,bool,class System.Object,value class WaitHandleWaitSourceMap)
+  System.Private.CoreLib!System.Threading.PortableThreadPool+GateThread.GateThreadStart()
+  System.Private.CoreLib!System.Threading.Thread.StartCallback(class System.Threading.Thread*)
+
+Thread (0x272EFB):
+  [Native Frames]
+  System.Private.CoreLib!System.Threading.LowLevelLifoSemaphore.Block(int32)
+  System.Private.CoreLib!System.Threading.LowLevelLifoSemaphore.WaitAsWaiter(int32)
+  System.Private.CoreLib!System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+  System.Private.CoreLib!System.Threading.Thread.StartCallback(class System.Threading.Thread*)
+

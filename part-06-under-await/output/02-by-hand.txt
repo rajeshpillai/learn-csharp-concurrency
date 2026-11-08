@@ -1,0 +1,7 @@
+thread 1 (main)  waiting for a client
+thread 6 (pool)  waiting for a line
+thread 6 (pool)  got "one"
+thread 6 (pool)  got "two"
+thread 6 (pool)  got "three"
+thread 6 (pool)  MoveNext ran 4 times
+thread 6 (pool)  3 lines, the client left

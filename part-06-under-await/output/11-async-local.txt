@@ -1,0 +1,7 @@
+thread  1 (main)  alice, before  async: alice  thread: alice
+thread  1 (main)  bob, before    async: bob    thread: bob
+thread  1 (main)  cara, before   async: cara   thread: cara
+thread  1 (main)  main           async: -      thread: cara
+thread  5 (pool)  cara, after    async: cara   thread: -
+thread  8 (pool)  alice, after   async: alice  thread: -
+thread  7 (pool)  bob, after     async: bob    thread: -

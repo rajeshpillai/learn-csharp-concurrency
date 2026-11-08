@@ -1,0 +1,5 @@
+Task, first await:       4 bytes
+Task, second await:      4 bytes
+ValueTask, first await:  4 bytes
+ValueTask, second await: InvalidOperationException
+  Operation is not valid due to the current state of the object.

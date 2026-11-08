@@ -1,0 +1,6 @@
+04-what-changes      run 1: 100,000 calls, each: 287 bytes, 1,312 ns
+04-what-changes      run 2: 100,000 calls, each: 286 bytes, 1,330 ns
+04-what-changes      run 3: 100,000 calls, each: 286 bytes, 1,325 ns
+05-what-changes-on   run 1: 100,000 calls, each: 168 bytes, 647 ns
+05-what-changes-on   run 2: 100,000 calls, each: 168 bytes, 697 ns
+05-what-changes-on   run 3: 100,000 calls, each: 168 bytes, 727 ns

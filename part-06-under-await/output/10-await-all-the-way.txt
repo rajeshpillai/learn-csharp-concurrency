@@ -1,0 +1,14 @@
+   0 ms  thread 1 (ui)  waiting for a client
+ 105 ms  thread 1 (ui)  tick
+ 199 ms  thread 1 (ui)  tick
+ 210 ms  thread 1 (ui)  waiting for a line
+ 299 ms  thread 1 (ui)  tick
+ 399 ms  thread 1 (ui)  tick
+ 411 ms  thread 7 (pool)  got "one"
+ 498 ms  thread 1 (ui)  tick
+ 598 ms  thread 1 (ui)  tick
+ 607 ms  thread 7 (pool)  got "two"
+ 698 ms  thread 1 (ui)  tick
+ 799 ms  thread 1 (ui)  tick
+ 808 ms  thread 7 (pool)  got "three"
+ 809 ms  thread 1 (ui)  3 lines, the client left

@@ -1,0 +1,66 @@
+$ ilspycmd -ds AsyncAwait=false bin/Release/net11.0/readloop.dll
+  private struct <<<Main>$>g__ServeAsync|0_0>d : IAsyncStateMachine
+  {
+    public int <>1__state;
+
+    public AsyncTaskMethodBuilder<int> <>t__builder;
+
+    public TcpClient client;
+
+    private StreamReader <reader>5__2;
+
+    private int <count>5__3;
+
+    private TaskAwaiter<string?> <>u__1;
+
+    private void MoveNext()
+    {
+      int num = <>1__state;
+      int result2;
+      try
+      {
+        if (num != 0)
+        {
+          <reader>5__2 = new StreamReader(client.GetStream());
+          <count>5__3 = 0;
+          Console.WriteLine(Here.Where() + "  waiting for a line");
+          goto IL_003b;
+        }
+        TaskAwaiter<string> awaiter = <>u__1;
+        <>u__1 = default;
+        num = (<>1__state = -1);
+        goto IL_0094;
+        IL_0094:
+        string result = awaiter.GetResult();
+        if (result != null)
+        {
+          <count>5__3++;
+          Console.WriteLine(Here.Where() + "  got \"" + result + "\"");
+          goto IL_003b;
+        }
+        result2 = <count>5__3;
+        goto end_IL_0007;
+        IL_003b:
+        awaiter = <reader>5__2.ReadLineAsync().GetAwaiter();
+        if (!awaiter.IsCompleted)
+        {
+          num = (<>1__state = 0);
+          <>u__1 = awaiter;
+          <>t__builder.AwaitUnsafeOnCompleted(ref awaiter, ref this);
+          return;
+        }
+        goto IL_0094;
+        end_IL_0007:;
+      }
+      catch (Exception exception)
+      {
+        <>1__state = -2;
+        <reader>5__2 = null;
+        <>t__builder.SetException(exception);
+        return;
+      }
+      <>1__state = -2;
+      <reader>5__2 = null;
+      <>t__builder.SetResult(result2);
+    }
+

@@ -1,0 +1,6 @@
+process id: 2567909
+   0 ms  thread 1 (ui)  waiting for a client
+ 101 ms  thread 1 (ui)  tick
+ 199 ms  thread 1 (ui)  tick
+ 201 ms  thread 1 (ui)  waiting for a line
+(still running after 5 seconds: stopped with kill)

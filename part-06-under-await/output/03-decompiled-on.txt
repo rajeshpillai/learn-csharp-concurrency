@@ -1,0 +1,20 @@
+$ ilspycmd -ds AsyncAwait=false bin/Release/net11.0/readloop.dll
+    [MethodImpl(MethodImplOptions.Async)]
+    static Task<int> ServeAsync(TcpClient tcpClient)
+    {
+      //IL_0053: Expected Obj, but got I4
+      StreamReader streamReader = new StreamReader(tcpClient.GetStream());
+      int num = 0;
+      Console.WriteLine(Here.Where() + "  waiting for a line");
+      while (true)
+      {
+        string text = AsyncHelpers.Await(streamReader.ReadLineAsync());
+        if (text == null)
+        {
+          break;
+        }
+        num++;
+        Console.WriteLine(Here.Where() + "  got \"" + text + "\"");
+      }
+      return (Task<int>)num;
+    }
