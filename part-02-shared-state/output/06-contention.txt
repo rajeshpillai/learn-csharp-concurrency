@@ -1,0 +1,7 @@
+windows:      12
+buyers:       1,000,000
+seats:        50,000
+tickets sold: 50,000
+seats left:   0
+time:         227 ms
+waited:       2,234 times

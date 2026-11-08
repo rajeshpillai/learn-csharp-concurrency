@@ -1,0 +1,5 @@
+readers:    11 x 200,000 views
+writer:     1 x 200,000 changes
+seats:      500
+seats left: 500
+time:       601 ms

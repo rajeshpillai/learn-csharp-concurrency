@@ -1,0 +1,36 @@
+$ dotnet-stack report -p 1773614
+Thread (0x1B102E):
+  [Native Frames]
+  System.Private.CoreLib!System.Threading.WaitSubsystem+ThreadWaitInfo.Wait(int32,bool,bool,value class LockHolder&)
+  System.Private.CoreLib!System.Threading.WaitSubsystem.Wait(class IWaitableObject,class ThreadWaitInfo,int32,bool)
+  System.Private.CoreLib!System.Threading.Thread.JoinInternal(int32)
+  System.Private.CoreLib!System.Threading.Thread.Join()
+  boxoffice!Program.<Main>$(class System.String[])
+  System.Private.CoreLib!System.Environment.CallEntryPoint(int,class System.String[]*,int32*,bool,class System.Exception*)
+
+Thread (0x1B1049):
+  [Native Frames]
+  System.Private.CoreLib!System.Threading.WaitSubsystem+ThreadWaitInfo.Wait(int32,bool,bool,value class LockHolder&)
+  System.Private.CoreLib!System.Threading.WaitSubsystem.Wait(class IWaitableObject,class ThreadWaitInfo,int32,bool)
+  System.Private.CoreLib!System.Threading.WaitHandle.WaitOneNoCheck(int32,bool,class System.Object,value class WaitHandleWaitSourceMap)
+  System.Private.CoreLib!System.Threading.Lock.TryEnterSlow(int32,int32)
+  System.Private.CoreLib!System.Threading.Lock.EnterAndGetCurrentThreadId()
+  System.Private.CoreLib!System.Threading.Lock.EnterScope()
+  boxoffice!Program.<<Main>$>g__Swap|0_5(class Seat,class Seat)
+  boxoffice!Program.<<Main>$>g__SwapMany|0_4(class Seat,class Seat)
+  boxoffice!Program+<>c__DisplayClass0_0.<<Main>$>b__1()
+  System.Private.CoreLib!System.Threading.Thread.StartCallback(class System.Threading.Thread*)
+
+Thread (0x1B104A):
+  [Native Frames]
+  System.Private.CoreLib!System.Threading.WaitSubsystem+ThreadWaitInfo.Wait(int32,bool,bool,value class LockHolder&)
+  System.Private.CoreLib!System.Threading.WaitSubsystem.Wait(class IWaitableObject,class ThreadWaitInfo,int32,bool)
+  System.Private.CoreLib!System.Threading.WaitHandle.WaitOneNoCheck(int32,bool,class System.Object,value class WaitHandleWaitSourceMap)
+  System.Private.CoreLib!System.Threading.Lock.TryEnterSlow(int32,int32)
+  System.Private.CoreLib!System.Threading.Lock.EnterAndGetCurrentThreadId()
+  System.Private.CoreLib!System.Threading.Lock.EnterScope()
+  boxoffice!Program.<<Main>$>g__Swap|0_5(class Seat,class Seat)
+  boxoffice!Program.<<Main>$>g__SwapMany|0_4(class Seat,class Seat)
+  boxoffice!Program+<>c__DisplayClass0_0.<<Main>$>b__2()
+  System.Private.CoreLib!System.Threading.Thread.StartCallback(class System.Threading.Thread*)
+

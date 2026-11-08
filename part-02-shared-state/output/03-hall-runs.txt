@@ -1,0 +1,10 @@
+run  1:  tickets sold: 512  seats left: 0
+run  2:  tickets sold: 500  seats left: 0
+run  3:  tickets sold: 500  seats left: 0
+run  4:  tickets sold: 500  seats left: 0
+run  5:  tickets sold: 500  seats left: 0
+run  6:  tickets sold: 529  seats left: 0
+run  7:  tickets sold: 500  seats left: 0
+run  8:  tickets sold: 500  seats left: 0
+run  9:  tickets sold: 504  seats left: 0
+run 10:  tickets sold: 500  seats left: 0

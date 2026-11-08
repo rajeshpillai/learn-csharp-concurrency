@@ -1,0 +1,3 @@
+run  1:  swaps done in 120 ms
+run  2:  swaps done in 127 ms
+run  3:  swaps done in 123 ms

@@ -1,0 +1,3 @@
+tickets sold: 500
+seats left:   0
+time:         523 ms

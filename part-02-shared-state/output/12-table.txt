@@ -1,0 +1,5 @@
+readers  seats    Lock   ReaderWriterLockSlim
+      1    500    68 ms       73 ms
+     11    500   645 ms      564 ms
+      1   2000   173 ms      168 ms
+     11   2000  1649 ms      737 ms

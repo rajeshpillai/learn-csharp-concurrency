@@ -1,0 +1,11 @@
+windows:      12
+buyers:       10,000
+seats:        500
+tickets sold: 500
+seats taken:  500
+time:         7 ms
+process id:   1773961
+swapping seats 1 and 2 ...
+ALARM: Ana held seat 1 and waited 1 s for seat 2
+ALARM: Ben held seat 2 and waited 1 s for seat 1
+swaps done

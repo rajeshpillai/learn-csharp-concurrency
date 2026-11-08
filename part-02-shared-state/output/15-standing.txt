@@ -1,0 +1,5 @@
+windows:      12
+buyers:       10,000
+places:       500
+tickets sold: 501
+in the dict:  501

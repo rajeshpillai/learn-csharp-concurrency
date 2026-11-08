@@ -1,0 +1,5 @@
+run  1:  tickets sold: 500  seats left: 0  time: 513 ms
+run  2:  tickets sold: 500  seats left: 0  time: 507 ms
+run  3:  tickets sold: 500  seats left: 0  time: 539 ms
+run  4:  tickets sold: 500  seats left: 0  time: 578 ms
+run  5:  tickets sold: 500  seats left: 0  time: 520 ms

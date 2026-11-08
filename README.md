@@ -11,6 +11,7 @@ the code also runs on .NET 10.
 | Part | We build | The question |
 |---|---|---|
 | [1. Threads and cores](part-01-threads-and-cores/) | a Mandelbrot renderer | Who runs your code, and why don't 12 threads make it 12 times faster? |
+| [2. Shared state](part-02-shared-state/) | a concert ticket booking engine | Why does `seats--` sell seats that don't exist? |
 
 More parts are added as their videos are published.
 

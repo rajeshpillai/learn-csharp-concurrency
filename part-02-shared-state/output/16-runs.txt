@@ -1,0 +1,10 @@
+run  1:  tickets sold: 500  in the dict: 500
+run  2:  tickets sold: 500  in the dict: 500
+run  3:  tickets sold: 500  in the dict: 500
+run  4:  tickets sold: 500  in the dict: 500
+run  5:  tickets sold: 500  in the dict: 500
+run  6:  tickets sold: 500  in the dict: 500
+run  7:  tickets sold: 500  in the dict: 500
+run  8:  tickets sold: 500  in the dict: 500
+run  9:  tickets sold: 500  in the dict: 500
+run 10:  tickets sold: 500  in the dict: 500

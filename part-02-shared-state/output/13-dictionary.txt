@@ -1,0 +1,5 @@
+windows:      12
+buyers:       1,000,000
+seats:        50,000
+tickets sold: 55,766
+seats booked: 50,000

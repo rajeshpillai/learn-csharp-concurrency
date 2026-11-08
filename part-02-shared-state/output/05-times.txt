@@ -1,0 +1,6 @@
+windows   no lock   lock
+      1      5 ms     19 ms
+      2      7 ms     44 ms
+      4     11 ms     68 ms
+      8     18 ms    216 ms
+     12     12 ms    229 ms

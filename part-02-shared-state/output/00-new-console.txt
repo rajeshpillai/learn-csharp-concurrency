@@ -1,0 +1,11 @@
+The template "Console App" was created successfully.
+
+Processing post-creation actions...
+Restoring boxoffice/boxoffice.csproj:
+  Determining projects to restore...
+  Restored boxoffice/boxoffice.csproj (in 7 ms).
+Restore succeeded.
+
+
+$ cat Program.cs
+Console.WriteLine("Hello, World!");

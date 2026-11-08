@@ -1,0 +1,9 @@
+windows:      12
+buyers:       10,000
+seats:        500
+tickets sold: 500
+seats taken:  500
+time:         7 ms
+process id:   1773614
+swapping seats 1 and 2 ...
+(still running after 10 seconds: stopped with kill)

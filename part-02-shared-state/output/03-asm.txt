@@ -1,0 +1,59 @@
+windows:      12
+buyers:       10,000
+seats:        500
+tickets sold: 500
+seats left:   0
+time:         7 ms
+; Assembly listing for method Program+<>c__DisplayClass0_1:<<Main>$>b__1():this (FullOpts)
+; Emitting BLENDED_CODE for x64 + VEX on Unix
+; FullOpts code
+; optimized code
+; rbp based frame
+; fully interruptible
+; No PGO data
+; 0 inlinees with PGO data; 0 single block inlinees; 1 inlinees without PGO data
+
+G_M000_IG01:                ;; offset=0x0000
+       push     rbp
+       mov      rbp, rsp
+ 
+G_M000_IG02:                ;; offset=0x0004
+       mov      eax, dword ptr [rdi+0x10]
+       mov      ecx, eax
+       mov      rdx, gword ptr [rdi+0x08]
+       mov      edi, dword ptr [rdx+0x14]
+       cmp      ecx, edi
+       jge      SHORT G_M000_IG06
+       align    [0 bytes for IG03]
+ 
+G_M000_IG03:                ;; offset=0x0014
+       mov      rsi, rdx
+       mov      r8d, dword ptr [rsi+0x18]
+       test     r8d, r8d
+       jle      SHORT G_M000_IG05
+ 
+G_M000_IG04:                ;; offset=0x0020
+       dec      r8d
+       mov      dword ptr [rsi+0x18], r8d
+       mov      rsi, gword ptr [rdx+0x08]
+       mov      r8d, eax
+       cmp      r8d, dword ptr [rsi+0x08]
+       jae      SHORT G_M000_IG07
+       lea      rsi, bword ptr [rsi+4*r8+0x10]
+       inc      dword ptr [rsi]
+ 
+G_M000_IG05:                ;; offset=0x003B
+       add      ecx, dword ptr [rdx+0x10]
+       cmp      ecx, edi
+       jl       SHORT G_M000_IG03
+ 
+G_M000_IG06:                ;; offset=0x0042
+       pop      rbp
+       ret      
+ 
+G_M000_IG07:                ;; offset=0x0044
+       call     CORINFO_HELP_RNGCHKFAIL
+       int3     
+ 
+; Total bytes of code 74
+

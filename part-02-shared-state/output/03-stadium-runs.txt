@@ -1,0 +1,5 @@
+run  1:  tickets sold: 147,333  seats left: 0
+run  2:  tickets sold: 197,334  seats left: 0
+run  3:  tickets sold: 179,597  seats left: 0
+run  4:  tickets sold: 190,895  seats left: 0
+run  5:  tickets sold: 171,566  seats left: 0

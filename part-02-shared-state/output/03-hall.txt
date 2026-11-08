@@ -1,0 +1,6 @@
+windows:      12
+buyers:       10,000
+seats:        500
+tickets sold: 500
+seats left:   0
+time:         11 ms
