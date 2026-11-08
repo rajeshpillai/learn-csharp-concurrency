@@ -1,0 +1,7 @@
+counter               1 thread   10 threads
+01-plain                   29 ms        51 ms
+02-lock                  1845 ms     23220 ms
+03-interlocked            499 ms      2306 ms
+04-striped                832 ms      2764 ms
+05-padded                 832 ms       677 ms
+06-skip-cell-zero         500 ms        81 ms

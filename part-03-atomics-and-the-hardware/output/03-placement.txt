@@ -1,0 +1,7 @@
+cpus   what they share          ms
+0      (one thread)             499
+0,1    one core, 2 hyperthreads 676
+4,5    one L2 (E-core cluster)  1420
+0,2    only L3                  1387
+4,8    only L3                  2143
+0,4    only L3 (P + E)          1536

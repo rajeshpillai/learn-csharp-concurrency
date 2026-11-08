@@ -1,0 +1,46 @@
+; Assembly listing for method Program+<>c__DisplayClass0_0:<<Main>$>b__0():this (Tier1-OSR)
+; Emitting BLENDED_CODE for x64 + VEX on Unix
+; Tier1-OSR code
+; OSR variant for entry point 0x4
+; optimized code
+; optimized using Synthesized PGO
+; rbp based frame
+; fully interruptible
+; with Synthesized PGO: fgCalledCount is 1
+; 0 inlinees with PGO data; 1 single block inlinees; 0 inlinees without PGO data
+
+G_M000_IG01:                ;; offset=0x0000
+       push     rax
+       mov      rax, qword ptr [rbp]
+       push     rax
+       mov      rbp, rsp
+       mov      rax, gword ptr [rbp+0x20]
+       mov      ecx, dword ptr [rbp+0x1C]
+ 
+G_M000_IG02:                ;; offset=0x0010
+       align    [0 bytes for IG03]
+ 
+G_M000_IG03:                ;; offset=0x0010
+       mov      rdx, gword ptr [rax+0x08]
+       cmp      dword ptr [rdx+0x18], ecx
+       jne      SHORT G_M000_IG03
+ 
+G_M000_IG04:                ;; offset=0x0019
+       mov      rdx, gword ptr [rax+0x08]
+       mov      dword ptr [rdx+0x08], 1
+       lock     
+       or       dword ptr [rsp], 0
+       mov      rdx, gword ptr [rax+0x08]
+       mov      edi, dword ptr [rdx+0x0C]
+       mov      dword ptr [rdx+0x10], edi
+       mov      dword ptr [rdx+0x1C], ecx
+       inc      ecx
+       cmp      ecx, 0xF4240
+       jle      SHORT G_M000_IG03
+ 
+G_M000_IG05:                ;; offset=0x0040
+       add      rsp, 80
+       pop      rbp
+       ret      
+ 
+; Total bytes of code 70

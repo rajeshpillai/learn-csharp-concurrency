@@ -1,0 +1,6 @@
+threads: 10, count: 59,276,908
+time: 51 ms, 0.4 ns per increment
+threads: 10, count: 54,607,432
+time: 95 ms, 0.8 ns per increment
+threads: 10, count: 39,864,708
+time: 63 ms, 0.5 ns per increment

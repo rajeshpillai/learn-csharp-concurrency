@@ -1,0 +1,2 @@
+threads: 10, count: 120,000,000
+time: 2764 ms, 23.0 ns per increment

@@ -1,0 +1,3 @@
+main: setting stop = true
+main: waited 3 s, the worker is still running
+took 4.02 s

@@ -1,0 +1,215 @@
+; Assembly listing for method Program+<>c__DisplayClass0_0:<<Main>$>b__0():this (Tier1-OSR)
+; Emitting BLENDED_CODE for x64 + VEX on Unix
+; Tier1-OSR code
+; OSR variant for entry point 0xa
+; optimized code
+; optimized using Synthesized PGO
+; rbp based frame
+; fully interruptible
+; with Synthesized PGO: fgCalledCount is 1
+; 20 inlinees with PGO data; 39 single block inlinees; 9 inlinees without PGO data
+
+G_M000_IG01:                ;; offset=0x0000
+       push     rax
+       mov      rax, qword ptr [rbp]
+       push     rax
+       sub      rsp, 48
+       mov      qword ptr [rsp+0xA8], r15
+       mov      qword ptr [rsp+0xA0], r14
+       mov      qword ptr [rsp+0x98], rbx
+       lea      rbp, [rsp+0x30]
+       xor      eax, eax
+       mov      qword ptr [rbp-0x20], rax
+       mov      rdi, gword ptr [rbp+0x50]
+       mov      rbx, qword ptr [rbp+0x48]
+ 
+G_M000_IG02:                ;; offset=0x0035
+       cmp      byte  ptr [rdi+0x08], 0
+       jne      SHORT G_M000_IG04
+       align    [5 bytes for IG03]
+ 
+G_M000_IG03:                ;; offset=0x0040
+       inc      rbx
+       cmp      byte  ptr [rdi+0x08], 0
+       je       SHORT G_M000_IG03
+ 
+G_M000_IG04:                ;; offset=0x0049
+       xor      rdi, rdi
+       mov      gword ptr [rbp+0x20], rdi
+       test     byte  ptr [(reloc 0x7768000a6fe8)], 1
+       je       G_M000_IG17
+ 
+G_M000_IG05:                ;; offset=0x005C
+       mov      rdi, 0x77604F400220
+       mov      rdi, gword ptr [rdi]
+       mov      esi, 256
+       cmp      dword ptr [rdi], edi
+       call     [System.Buffers.SharedArrayPool`1[char]:Rent(int):char[]:this]
+       mov      gword ptr [rbp+0x28], rax
+       test     rax, rax
+       je       G_M000_IG18
+       lea      rdi, bword ptr [rax+0x10]
+       mov      esi, dword ptr [rax+0x08]
+ 
+G_M000_IG06:                ;; offset=0x008A
+       mov      bword ptr [rbp+0x38], rdi
+       mov      dword ptr [rbp+0x40], esi
+       xor      edi, edi
+       mov      dword ptr [rbp+0x30], edi
+       mov      byte  ptr [rbp+0x34], 0
+       mov      edi, dword ptr [rbp+0x30]
+       mov      esi, dword ptr [rbp+0x40]
+       cmp      edi, esi
+       ja       G_M000_IG19
+       mov      rax, bword ptr [rbp+0x38]
+       mov      ecx, edi
+       lea      rax, bword ptr [rax+2*rcx]
+       sub      esi, edi
+       cmp      esi, 23
+       jb       G_M000_IG20
+ 
+G_M000_IG07:                ;; offset=0x00BD
+       vmovups  ymm0, ymmword ptr [reloc @RWD00]
+       vmovups  ymmword ptr [rax], ymm0
+       mov      rdi, 0x74006600610020
+       mov      qword ptr [rax+0x20], rdi
+       mov      dword ptr [rax+0x28], 0x720065
+       mov      word  ptr [rax+0x2C], 32
+       mov      edi, dword ptr [rbp+0x30]
+       add      edi, 23
+       mov      dword ptr [rbp+0x30], edi
+ 
+G_M000_IG08:                ;; offset=0x00ED
+       mov      r15, rbx
+       cmp      byte  ptr [rbp+0x34], 0
+       jne      G_M000_IG21
+       mov      ebx, dword ptr [rbp+0x30]
+       cmp      ebx, dword ptr [rbp+0x40]
+       ja       G_M000_IG19
+       mov      r14, 0x7767FC800EBC
+ 
+G_M000_IG09:                ;; offset=0x0110
+       mov      r8, bword ptr [rbp+0x38]
+       mov      r9d, ebx
+       lea      r8, bword ptr [r8+2*r9]
+       mov      r9d, dword ptr [rbp+0x40]
+       sub      r9d, ebx
+       mov      rsi, r14
+       mov      rcx, gword ptr [rbp+0x20]
+       lea      rdx, [rbp-0x20]
+       mov      qword ptr [rsp], rdx
+       mov      edx, 2
+       mov      rdi, r15
+       call     [System.Number:<TryFormatInt64>g__TryFormatInt64Slow|426_0[char](long,System.ReadOnlySpan`1[char],System.IFormatProvider,System.Span`1[char],byref):bool]
+       test     eax, eax
+       je       G_M000_IG22
+       mov      edi, dword ptr [rbp+0x30]
+       add      edi, dword ptr [rbp-0x20]
+       mov      dword ptr [rbp+0x30], edi
+ 
+G_M000_IG10:                ;; offset=0x0150
+       mov      edi, dword ptr [rbp+0x30]
+       mov      esi, dword ptr [rbp+0x40]
+       cmp      edi, esi
+       ja       G_M000_IG19
+       mov      rax, bword ptr [rbp+0x38]
+       mov      ecx, edi
+       lea      rax, bword ptr [rax+2*rcx]
+       sub      esi, edi
+       cmp      esi, 6
+       jb       G_M000_IG23
+ 
+G_M000_IG11:                ;; offset=0x0173
+       mov      rdi, 0x69007000730020
+       mov      qword ptr [rax], rdi
+       mov      dword ptr [rax+0x08], 0x73006E
+       mov      edi, dword ptr [rbp+0x30]
+       add      edi, 6
+       mov      dword ptr [rbp+0x30], edi
+ 
+G_M000_IG12:                ;; offset=0x0190
+       mov      esi, dword ptr [rbp+0x30]
+       cmp      esi, dword ptr [rbp+0x40]
+       ja       SHORT G_M000_IG19
+       mov      rdi, bword ptr [rbp+0x38]
+       call     System.String:.ctor(System.ReadOnlySpan`1[char]):this
+       mov      rbx, rax
+       mov      rsi, gword ptr [rbp+0x28]
+       xor      rdi, rdi
+       mov      gword ptr [rbp+0x28], rdi
+       vxorps   xmm0, xmm0, xmm0
+       vmovdqu  xmmword ptr [rbp+0x38], xmm0
+ 
+G_M000_IG13:                ;; offset=0x01B7
+       mov      dword ptr [rbp+0x30], edi
+       test     rsi, rsi
+       je       SHORT G_M000_IG15
+ 
+G_M000_IG14:                ;; offset=0x01BF
+       mov      rdi, 0x77604F400220
+       mov      rdi, gword ptr [rdi]
+       xor      edx, edx
+       cmp      dword ptr [rdi], edi
+       call     [System.Buffers.SharedArrayPool`1[char]:Return(char[],bool):this]
+ 
+G_M000_IG15:                ;; offset=0x01D6main: setting stop = true
+worker: saw stop after 7,790,864,660 spins
+main: the worker stopped
+
+       mov      rdi, rbx
+       call     [System.Console:WriteLine(System.String)]
+       nop      
+ 
+G_M000_IG16:                ;; offset=0x01E0
+       vzeroupper 
+       add      rsp, 152
+       pop      rbx
+       pop      r14
+       pop      r15
+       pop      rbp
+       ret      
+ 
+G_M000_IG17:                ;; offset=0x01F1
+       mov      rdi, 0x7768000A6F08
+       call     [CORINFO_HELP_GET_GCSTATIC_BASE]
+       jmp      G_M000_IG05
+ 
+G_M000_IG18:                ;; offset=0x0206
+       xor      rdi, rdi
+       xor      esi, esi
+       jmp      G_M000_IG06
+ 
+G_M000_IG19:                ;; offset=0x020F
+       call     [System.ThrowHelper:ThrowArgumentOutOfRangeException()]
+       int3     
+ 
+G_M000_IG20:                ;; offset=0x0216
+       lea      rdi, [rbp+0x20]
+       mov      rsi, 0x7767FC800E68
+       call     [System.Runtime.CompilerServices.DefaultInterpolatedStringHandler:GrowThenCopyString(System.String):this]
+       jmp      G_M000_IG08
+ 
+G_M000_IG21:                ;; offset=0x022F
+       lea      rdi, [rbp+0x20]
+       mov      rsi, rbx
+       mov      rdx, 0x7767FC800EB0
+       call     [System.Runtime.CompilerServices.DefaultInterpolatedStringHandler:AppendCustomFormatter[long](long,System.String):this]
+       jmp      G_M000_IG10
+ 
+G_M000_IG22:                ;; offset=0x024B
+       lea      rdi, [rbp+0x20]
+       call     [System.Runtime.CompilerServices.DefaultInterpolatedStringHandler:Grow():this]
+       mov      ebx, dword ptr [rbp+0x30]
+       cmp      ebx, dword ptr [rbp+0x40]
+       jbe      G_M000_IG09
+       jmp      SHORT G_M000_IG19
+ 
+G_M000_IG23:                ;; offset=0x0263
+       lea      rdi, [rbp+0x20]
+       mov      rsi, 0x7767FC800ED0
+       call     [System.Runtime.CompilerServices.DefaultInterpolatedStringHandler:GrowThenCopyString(System.String):this]
+       jmp      G_M000_IG12
+ 
+RWD00  	dq	006B0072006F0077h, 0020003A00720065h, 0020007700610073h, 0070006F00740073h
+
+; Total bytes of code 636

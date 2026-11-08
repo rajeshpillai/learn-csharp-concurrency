@@ -1,0 +1,4 @@
+main: setting stop = true
+worker: saw stop after 7,775,385,246 spins
+main: the worker stopped
+took 1.02 s
