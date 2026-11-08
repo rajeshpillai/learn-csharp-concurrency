@@ -1,0 +1,6 @@
+min threads: 12 workers, 1 for I/O
+all 200 done: 1,032 ms
+health check waited: 1,003 ms
+CPU time used: 125 ms
+pool threads at the end: 200
+memory in use: 36 MiB

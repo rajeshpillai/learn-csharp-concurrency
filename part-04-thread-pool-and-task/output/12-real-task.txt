@@ -1,0 +1,4 @@
+   1 ms: main is free, status Running
+result: 148,933, status RanToCompletion
+ 284 ms: 148,933 primes, printed by .NET TP Worker
+from our pool: 168, status RanToCompletion

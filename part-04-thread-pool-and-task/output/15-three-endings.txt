@@ -1,0 +1,13 @@
+ok:        RanToCompletion
+bad:       Faulted
+cancelled: Canceled
+bad.Result: throws AggregateException
+    inside: InvalidOperationException
+bad.Wait(): throws AggregateException
+    inside: InvalidOperationException
+cancelled.Wait(): throws AggregateException
+    inside: TaskCanceledException
+await bad: throws InvalidOperationException
+await cancelled: throws OperationCanceledException
+unobserved: the database is down
+the program is still running

@@ -1,0 +1,3 @@
+   0 ms: main is free
+ 261 ms: 148,933 primes, printed by pool-0
+1003 ms: added late, printed by main

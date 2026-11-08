@@ -1,0 +1,6 @@
+job added. Done yet? False
+primes below 2 million: 148,933
+done yet? True
+main thread waited 277 ms
+caught: the job failed: the database is down
+the main thread is still running

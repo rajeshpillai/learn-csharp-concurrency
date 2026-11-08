@@ -1,0 +1,7 @@
+ 110 ms: WhenAny: orders came back first
+ 302 ms: WhenAll: user, orders, prices
+ 103 ms: WhenEach: orders
+ 199 ms: WhenEach: prices
+ 300 ms: WhenEach: user
+ 110 ms: Wait(): 2 errors inside
+ 110 ms: await: InvalidOperationException: stock is down

@@ -1,0 +1,2 @@
+min threads 12: 146 ms, 13 pool threads
+CPU time used: 1,737 ms

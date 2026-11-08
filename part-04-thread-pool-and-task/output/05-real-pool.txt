@@ -1,0 +1,12 @@
+   2 s:  25 done, 163 queued,  13 pool threads
+   4 s:  51 done, 136 queued,  14 pool threads
+   6 s:  79 done, 108 queued,  14 pool threads
+   8 s: 107 done,  80 queued,  14 pool threads
+  10 s: 136 done,  50 queued,  15 pool threads
+  12 s: 166 done,  20 queued,  15 pool threads
+  14 s: 196 done,   0 queued,  15 pool threads
+all 200 done: 15,007 ms
+health check waited: 14,006 ms
+CPU time used: 155 ms
+pool threads at the end: 15
+memory in use: 33 MiB
