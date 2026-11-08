@@ -1,0 +1,4 @@
+12 threads, 12 logical CPUs
+rendered in 7 ms
+saved mandelbrot.ppm
+exit code 0

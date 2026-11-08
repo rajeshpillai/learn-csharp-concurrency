@@ -1,0 +1,8 @@
+before
+  threads in process : 6
+  memory in use      : 29 MiB
+  address space      : 33.2 GiB
+after 1,000 threads, created in 88 ms
+  threads in process : 1,007
+  memory in use      : 54 MiB
+  address space      : 46.7 GiB

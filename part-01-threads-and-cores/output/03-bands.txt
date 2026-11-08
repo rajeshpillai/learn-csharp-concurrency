@@ -1,0 +1,15 @@
+12 threads, 12 logical CPUs
+  rows 0-89 done at 20 ms
+  rows 990-1079 done at 21 ms
+  rows 900-989 done at 69 ms
+  rows 90-179 done at 73 ms
+  rows 810-899 done at 171 ms
+  rows 180-269 done at 209 ms
+  rows 720-809 done at 247 ms
+  rows 270-359 done at 313 ms
+  rows 630-719 done at 374 ms
+  rows 360-449 done at 401 ms
+  rows 540-629 done at 503 ms
+  rows 450-539 done at 506 ms
+rendered in 506 ms
+saved mandelbrot.ppm

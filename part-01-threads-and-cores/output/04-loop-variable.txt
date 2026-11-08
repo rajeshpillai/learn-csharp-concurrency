@@ -1,0 +1,51 @@
+--- run 1
+12 threads, 12 logical CPUs
+  thread 12 done at 305 ms
+  thread 12 done at 309 ms
+  thread 12 done at 311 ms
+  thread 12 done at 311 ms
+  thread 12 done at 324 ms
+  thread 12 done at 328 ms
+  thread 12 done at 328 ms
+  thread 12 done at 328 ms
+  thread 12 done at 329 ms
+  thread 12 done at 330 ms
+  thread 12 done at 334 ms
+  thread 12 done at 341 ms
+rendered in 342 ms
+saved mandelbrot.ppm
+rows never drawn: 90 of 1080 first: 0 12 24 36 48 60
+--- run 2
+12 threads, 12 logical CPUs
+  thread 12 done at 306 ms
+  thread 12 done at 306 ms
+  thread 12 done at 310 ms
+  thread 12 done at 310 ms
+  thread 12 done at 327 ms
+  thread 12 done at 329 ms
+  thread 12 done at 330 ms
+  thread 12 done at 331 ms
+  thread 12 done at 334 ms
+  thread 12 done at 334 ms
+  thread 12 done at 335 ms
+  thread 12 done at 343 ms
+rendered in 343 ms
+saved mandelbrot.ppm
+rows never drawn: 180 of 1080 first: 0 1 12 13 24 25
+--- run 3
+12 threads, 12 logical CPUs
+  thread 12 done at 312 ms
+  thread 12 done at 313 ms
+  thread 12 done at 314 ms
+  thread 12 done at 316 ms
+  thread 12 done at 332 ms
+  thread 12 done at 332 ms
+  thread 12 done at 333 ms
+  thread 12 done at 336 ms
+  thread 12 done at 337 ms
+  thread 12 done at 338 ms
+  thread 12 done at 342 ms
+  thread 12 done at 345 ms
+rendered in 345 ms
+saved mandelbrot.ppm
+rows never drawn: 360 of 1080 first: 0 1 2 9 12 13

@@ -1,0 +1,18 @@
+process 1249705
+  main      managed thread id 1
+  worker-1  managed thread id 4
+  worker-2  managed thread id 5
+  worker-3  managed thread id 6
+
+$ ps -T -o spid,comm -p 1249705
+   SPID COMMAND
+1249705 seethreads
+1249706 .NET EventPipe
+1249707 .NET DebugPipe
+1249708 .NET Debugger
+1249709 .NET Finalizer
+1249710 .NET Tiered JIT
+1249711 .NET SigHandler
+1249712 worker-1
+1249713 worker-2
+1249714 worker-3

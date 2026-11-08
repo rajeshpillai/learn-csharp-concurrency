@@ -1,0 +1,16 @@
+12 threads, 12 logical CPUs
+  thread 7 done at 305 ms
+  thread 8 done at 305 ms
+  thread 0 done at 312 ms
+  thread 10 done at 314 ms
+  thread 2 done at 327 ms
+  thread 1 done at 327 ms
+  thread 4 done at 328 ms
+  thread 5 done at 329 ms
+  thread 3 done at 332 ms
+  thread 9 done at 335 ms
+  thread 6 done at 339 ms
+  thread 11 done at 340 ms
+rendered in 340 ms
+saved mandelbrot.ppm
+0.37 s wall, 3.77 s cpu

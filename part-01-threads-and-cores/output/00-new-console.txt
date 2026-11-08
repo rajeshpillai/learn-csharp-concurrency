@@ -1,0 +1,9 @@
+The template "Console App" was created successfully.
+
+Processing post-creation actions...
+Restoring mandel/mandel.csproj:
+  Determining projects to restore...
+  Restored mandel/mandel.csproj (in 2 ms).
+Restore succeeded.
+
+

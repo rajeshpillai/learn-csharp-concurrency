@@ -1,0 +1,3 @@
+one thread, three runs each
+performance core (cpu0): 2153 ms | 2102 ms | 2097 ms
+efficiency core  (cpu6): 3142 ms | 3143 ms | 3143 ms

@@ -1,0 +1,2 @@
+rendered in 2091 ms
+saved mandelbrot.ppm

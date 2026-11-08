@@ -1,0 +1,16 @@
+12 threads, 12 logical CPUs
+  rows 0-89 done at 18 ms
+  rows 990-1079 FAILED: IndexOutOfRangeException
+  rows 900-989 done at 58 ms
+  rows 90-179 done at 77 ms
+  rows 810-899 done at 173 ms
+  rows 180-269 done at 184 ms
+  rows 270-359 done at 305 ms
+  rows 720-809 done at 307 ms
+  rows 360-449 done at 410 ms
+  rows 630-719 done at 442 ms
+  rows 450-539 done at 496 ms
+  rows 540-629 done at 527 ms
+rendered in 527 ms
+saved mandelbrot.ppm
+exit code 0

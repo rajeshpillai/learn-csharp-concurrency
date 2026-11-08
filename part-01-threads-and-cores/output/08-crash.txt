@@ -1,0 +1,8 @@
+12 threads, 12 logical CPUs
+  rows 0-89 done at 15 ms
+Unhandled exception. System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Program.<>c__DisplayClass0_0.<<Main>$>g__RenderRows|1(Int32 firstRow, Int32 endRow) in steps/08-crash/Program.cs:line 41
+   at Program.<>c__DisplayClass0_1.<<Main>$>b__5() in steps/08-crash/Program.cs:line 24
+   at System.Threading.Thread.StartCallback(Thread* pThread)
+./run.sh: line 18: 1263526 Aborted                 (core dumped) ( cd "$dir" && "./bin/Release/net11.0/$name" "$@" )
+exit code 134
