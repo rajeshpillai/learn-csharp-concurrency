@@ -1,0 +1,4 @@
+$ dotnet build
+Program.cs(44,13): error CS1996: Cannot await in the body of a lock statement
+Build FAILED.
+    1 Error(s)

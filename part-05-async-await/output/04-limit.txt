@@ -1,0 +1,4 @@
+$ ulimit -n 1024
+$ dotnet run -- 2000
+Unhandled exception. System.Net.Sockets.SocketException (23): Too many open files in system
+   at System.Net.Sockets.Socket..ctor(AddressFamily addressFamily, SocketType socketType, ProtocolType protocolType)

@@ -1,0 +1,18 @@
+listening on port 5000
+clients      2  threads     14  memory   36 MiB  queued       0
+clients      3  threads     16  memory  229 MiB  queued 2532596
+user 3 left: disconnected
+clients      2  threads     16  memory  230 MiB  queued  990639
+clients      2  threads     16  memory  231 MiB  queued  952199
+clients      2  threads     16  memory  231 MiB  queued  952199
+clients      2  threads     16  memory  233 MiB  queued  952199
+user 1 left: too slow: one write took 5 s
+clients      1  threads     16  memory  233 MiB  queued       0
+clients      1  threads     16  memory  233 MiB  queued       0
+clients      1  threads     16  memory  233 MiB  queued       0
+clients      1  threads     16  memory  233 MiB  queued       0
+clients      1  threads     16  memory  233 MiB  queued       0
+user 2 left: disconnected
+clients      0  threads     16  memory  233 MiB  queued       0
+stopping, 0 clients
+stopped

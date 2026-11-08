@@ -1,0 +1,6 @@
+$ nc localhost 5000
+welcome, you are user 10001
+> ten thousand people are here
+user 10001: ten thousand people are here
+user 10002: and it still answers straight away
+^C

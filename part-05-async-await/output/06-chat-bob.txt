@@ -1,0 +1,6 @@
+$ nc localhost 5000
+welcome, you are user 2
+user 1: hi, is anyone here?
+> hi alice, I'm here
+user 2: hi alice, I'm here
+^C

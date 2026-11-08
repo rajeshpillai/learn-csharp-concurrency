@@ -1,0 +1,4 @@
+kernel stacks before: 30 MiB
+kernel stacks during: 30 MiB
+kernel stacks added:  0 MiB
+connections dropped:  0

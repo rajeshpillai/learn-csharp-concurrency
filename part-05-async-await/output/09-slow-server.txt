@@ -1,0 +1,13 @@
+listening on port 5000
+clients      2  threads     15  memory   36 MiB  queued       0
+clients      3  threads     16  memory  211 MiB  queued 2151550
+clients      3  threads     16  memory  212 MiB  queued  951998
+clients      3  threads     16  memory  212 MiB  queued  951998
+clients      3  threads     16  memory  212 MiB  queued  951998
+clients      3  threads     16  memory  212 MiB  queued  951998
+clients      3  threads     16  memory  212 MiB  queued  951998
+clients      4  threads     16  memory  212 MiB  queued  951999
+clients      4  threads     16  memory  213 MiB  queued  863565
+clients      4  threads     16  memory  213 MiB  queued       0
+clients      4  threads     16  memory  213 MiB  queued       0
+clients      4  threads     16  memory  213 MiB  queued       0

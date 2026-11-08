@@ -1,0 +1,4 @@
+$ nc localhost 5000
+> one
+> two
+> three

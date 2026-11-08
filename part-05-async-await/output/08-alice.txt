@@ -1,0 +1,4 @@
+$ nc localhost 5000
+welcome, you are user 1
+^Z
+[1]+  Stopped                 nc localhost 5000

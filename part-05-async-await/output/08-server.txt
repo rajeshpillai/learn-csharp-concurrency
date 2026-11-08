@@ -1,0 +1,113 @@
+listening on port 5000
+clients      2  threads     13  memory   35 MiB
+Unhandled exception. System.InvalidOperationException: The stream is currently in use by a previous operation on the stream.
+   at System.IO.StreamWriter.ThrowAsyncIOInProgress()
+   at System.IO.StreamWriter.CheckAsyncTaskInProgress()
+   at System.IO.StreamWriter.WriteLineAsync(String value)
+   at Program.<<Main>$>g__Send|0_2(StreamWriter writer, String message) in Program.cs:line 50
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__135_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerDoWork(PortableThreadPool threadPoolInstance)
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback(Thread* pThread)Unhandled exception. System.InvalidOperationException: The stream is currently in use by a previous operation on the stream.
+   at System.IO.StreamWriter.ThrowAsyncIOInProgress()
+   at System.IO.StreamWriter.CheckAsyncTaskInProgress()
+   at System.IO.StreamWriter.WriteLineAsync(String value)
+   at Program.<<Main>$>g__Send|0_2(StreamWriter writer, String message) in Program.cs:line 50
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__135_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerDoWork(PortableThreadPool threadPoolInstance)
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback(Thread* pThread)Unhandled exception. System.InvalidOperationException: The stream is currently in use by a previous operation on the stream.
+   at System.IO.StreamWriter.ThrowAsyncIOInProgress()
+   at System.IO.StreamWriter.CheckAsyncTaskInProgress()
+   at System.IO.StreamWriter.WriteLineAsync(String value)
+   at Program.<<Main>$>g__Send|0_2(StreamWriter writer, String message) in Program.cs:line 50
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__135_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerDoWork(PortableThreadPool threadPoolInstance)
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback(Thread* pThread)
+Unhandled exception. System.InvalidOperationException: The stream is currently in use by a previous operation on the stream.
+   at System.IO.StreamWriter.ThrowAsyncIOInProgress()
+   at System.IO.StreamWriter.CheckAsyncTaskInProgress()
+   at System.IO.StreamWriter.WriteLineAsync(String value)
+   at Program.<<Main>$>g__Send|0_2(StreamWriter writer, String message) in Program.cs:line 50
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__135_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerDoWork(PortableThreadPool threadPoolInstance)
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback(Thread* pThread)
+
+Unhandled exception. System.InvalidOperationException: The stream is currently in use by a previous operation on the stream.
+   at System.IO.StreamWriter.ThrowAsyncIOInProgress()
+   at System.IO.StreamWriter.CheckAsyncTaskInProgress()
+   at System.IO.StreamWriter.WriteLineAsync(String value)
+   at Program.<<Main>$>g__Send|0_2(StreamWriter writer, String message) in Program.cs:line 50
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__135_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerDoWork(PortableThreadPool threadPoolInstance)
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback(Thread* pThread)
+Unhandled exception. System.InvalidOperationException: The stream is currently in use by a previous operation on the stream.
+   at System.IO.StreamWriter.ThrowAsyncIOInProgress()
+   at System.IO.StreamWriter.CheckAsyncTaskInProgress()
+   at System.IO.StreamWriter.WriteLineAsync(String value)
+   at Program.<<Main>$>g__Send|0_2(StreamWriter writer, String message) in Program.cs:line 50
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__135_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerDoWork(PortableThreadPool threadPoolInstance)
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback(Thread* pThread)Unhandled exception. System.InvalidOperationException: The stream is currently in use by a previous operation on the stream.
+   at System.IO.StreamWriter.ThrowAsyncIOInProgress()
+   at System.IO.StreamWriter.CheckAsyncTaskInProgress()
+   at System.IO.StreamWriter.WriteLineAsync(String value)
+   at Program.<<Main>$>g__Send|0_2(StreamWriter writer, String message) in Program.cs:line 50
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__135_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerDoWork(PortableThreadPool threadPoolInstance)
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback(Thread* pThread)Unhandled exception. System.InvalidOperationException: The stream is currently in use by a previous operation on the stream.
+   at System.IO.StreamWriter.ThrowAsyncIOInProgress()
+   at System.IO.StreamWriter.CheckAsyncTaskInProgress()
+   at System.IO.StreamWriter.WriteLineAsync(String value)
+   at Program.<<Main>$>g__Send|0_2(StreamWriter writer, String message) in Program.cs:line 50
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__135_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerDoWork(PortableThreadPool threadPoolInstance)
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback(Thread* pThread)Unhandled exception. System.InvalidOperationException: The stream is currently in use by a previous operation on the stream.
+   at System.IO.StreamWriter.ThrowAsyncIOInProgress()
+   at System.IO.StreamWriter.CheckAsyncTaskInProgress()
+   at System.IO.StreamWriter.WriteLineAsync(String value)
+   at Program.<<Main>$>g__Send|0_2(StreamWriter writer, String message) in Program.cs:line 50
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__135_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerDoWork(PortableThreadPool threadPoolInstance)
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback(Thread* pThread)
+
+
+Unhandled exception. System.InvalidOperationException: The stream is currently in use by a previous operation on the stream.
+   at System.IO.StreamWriter.ThrowAsyncIOInProgress()
+   at System.IO.StreamWriter.CheckAsyncTaskInProgress()
+   at System.IO.StreamWriter.WriteLineAsync(String value)
+   at Program.<<Main>$>g__Send|0_2(StreamWriter writer, String message) in Program.cs:line 50
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__135_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerDoWork(PortableThreadPool threadPoolInstance)
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback(Thread* pThread)
+
+
+Unhandled exception. System.InvalidOperationException: The stream is currently in use by a previous operation on the stream.
+   at System.IO.StreamWriter.ThrowAsyncIOInProgress()
+   at System.IO.StreamWriter.CheckAsyncTaskInProgress()
+   at System.IO.StreamWriter.WriteLineAsync(String value)
+   at Program.<<Main>$>g__Send|0_2(StreamWriter writer, String message) in Program.cs:line 50
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__135_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerDoWork(PortableThreadPool threadPoolInstance)
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback(Thread* pThread)
+(exit code 134)

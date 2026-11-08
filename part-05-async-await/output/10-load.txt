@@ -1,0 +1,4 @@
+connected: 1000 in 46 ms
+slowest:   13 ms
+welcomed:  1000 in 66 ms
+closed:    1000

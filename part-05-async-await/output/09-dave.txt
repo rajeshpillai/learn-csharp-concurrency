@@ -1,0 +1,5 @@
+$ nc localhost 5000
+welcome, you are user 4
+> hello? is anyone there?
+user 4: hello? is anyone there?
+^C

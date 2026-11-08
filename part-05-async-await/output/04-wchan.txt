@@ -1,0 +1,9 @@
+$ ps -L -o wchan= -p 2403862 | sort | uniq -c
+  10000 wait_woken
+      4 futex_do_wait
+      1 wait_for_partner
+      1 poll_schedule_timeout.constprop.0
+      1 inet_csk_accept
+      1 ep_poll
+      1 anon_pipe_read
+      1 -

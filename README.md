@@ -14,6 +14,7 @@ the code also runs on .NET 10.
 | [2. Shared state](part-02-shared-state/) | a concert ticket booking engine | Why does `seats--` sell seats that don't exist? |
 | [3. Atomics and the hardware](part-03-atomics-and-the-hardware/) | a metrics library | Why does one hot counter make 10 cores slower than 1? |
 | [4. The thread pool and Task](part-04-thread-pool-and-task/) | our own thread pool, then our own Task | If threads are expensive, who runs `Task.Run`? |
+| [5. async/await in use](part-05-async-await/) | a TCP chat server | How do 10,000 connections fit on 12 threads? |
 
 More parts are added as their videos are published.
 

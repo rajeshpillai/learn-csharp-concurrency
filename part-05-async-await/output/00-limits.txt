@@ -1,0 +1,4 @@
+$ ulimit -n
+1048576
+$ cat /proc/sys/net/core/somaxconn
+4096

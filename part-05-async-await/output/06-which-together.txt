@@ -1,0 +1,8 @@
+thread 1 (main)  waiting for a client
+thread 5 (pool)  client connected
+thread 5 (pool)  line 1: already here
+thread 5 (pool)  got "one"
+thread 5 (pool)  line 2: already here
+thread 5 (pool)  got "two"
+thread 5 (pool)  line 3: already here
+thread 5 (pool)  got "three"

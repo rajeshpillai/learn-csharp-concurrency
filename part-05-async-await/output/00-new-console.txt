@@ -1,0 +1,11 @@
+The template "Console App" was created successfully.
+
+Processing post-creation actions...
+Restoring chat/chat.csproj:
+  Determining projects to restore...
+  Restored chat/chat.csproj (in 0.9 ms).
+Restore succeeded.
+
+
+$ cat Program.cs
+Console.WriteLine("Hello, World!");

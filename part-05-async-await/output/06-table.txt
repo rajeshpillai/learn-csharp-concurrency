@@ -1,0 +1,4 @@
+clients   threads: one each / async   memory MiB: one each / async   welcomed ms: one each / async
+   1000      1009 / 14              66 / 53            121 / 88
+   5000      5010 / 16             173 / 97            781 / 221
+  10000     10010 / 15             301 / 152          2508 / 1323

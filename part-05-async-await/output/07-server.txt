@@ -1,0 +1,6 @@
+listening on port 5000
+clients      1  threads     13  memory   35 MiB
+clients      1  threads     13  memory   36 MiB
+clients      1  threads     13  memory   39 MiB
+clients      0  threads     13  memory   40 MiB
+clients      0  threads     13  memory   40 MiB

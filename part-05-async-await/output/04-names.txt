@@ -1,0 +1,10 @@
+$ ps -L -o comm= -p 2403862 | sort | uniq -c
+  10002 chat
+      1 .NET Tiered JIT
+      1 .NET Sockets
+      1 .NET SigHandler
+      1 .NET Finalizer
+      1 .NET EventPipe
+      1 .NET DebugPipe
+      1 .NET Debugger
+      1 .NET BGC

@@ -1,0 +1,7 @@
+listening on port 5000
+user 1 joined
+user 2 joined
+user 3 joined
+user 2 left
+user 1 left
+user 3 left

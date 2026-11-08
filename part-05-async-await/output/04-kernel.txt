@@ -1,0 +1,4 @@
+kernel stacks before: 30 MiB
+kernel stacks during: 187 MiB
+kernel stacks added:  156 MiB
+connections dropped:  2
