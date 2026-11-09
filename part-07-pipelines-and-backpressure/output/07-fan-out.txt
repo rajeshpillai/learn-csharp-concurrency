@@ -1,0 +1,15 @@
+$ dotnet run -- ../access.log 4
+ 0.5 s  read   325,300  parsed   324,400  written   323,400  memory    59 MiB
+ 1.0 s  read   560,300  parsed   559,200  written   559,000  memory    61 MiB
+ 1.5 s  read   812,000  parsed   810,900  written   810,500  memory    65 MiB
+ 2.0 s  read 1,191,900  parsed 1,190,800  written 1,189,400  memory    62 MiB
+ 2.5 s  read 1,977,800  parsed 1,976,800  written 1,975,600  memory    66 MiB
+ 3.0 s  read 2,864,800  parsed 2,863,700  written 2,862,300  memory    63 MiB
+ 3.5 s  read 3,682,200  parsed 3,681,100  written 3,679,800  memory    63 MiB
+ 3.7 s  read 4,000,000  parsed 4,000,000  written 4,000,000  memory    64 MiB
+status 200: 3,600,712
+status 304:   199,442
+status 404:   159,832
+status 500:    40,014
+done in 3.7 s, peak memory 68 MiB, GC pauses 0.6 s
+4 writers, 653,600 lines out of order

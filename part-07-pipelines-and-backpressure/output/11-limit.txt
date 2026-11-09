@@ -1,0 +1,19 @@
+$ DOTNET_GCHeapHardLimit=0x20000000 dotnet run -- ../access.log 4
+ 0.5 s  read   250,500  parsed   249,500  written   249,200  memory    60 MiB
+ 1.0 s  read   471,600  parsed   470,500  written   469,900  memory    62 MiB
+ 1.5 s  read   682,400  parsed   681,400  written   681,100  memory    61 MiB
+ 2.0 s  read   902,400  parsed   901,300  written   901,100  memory    62 MiB
+ 2.5 s  read 1,179,200  parsed 1,178,100  written 1,176,900  memory    63 MiB
+ 3.0 s  read 1,741,300  parsed 1,740,200  written 1,739,400  memory    66 MiB
+ 3.5 s  read 2,454,200  parsed 2,453,100  written 2,451,700  memory    67 MiB
+ 4.0 s  read 3,215,000  parsed 3,213,900  written 3,212,600  memory    63 MiB
+ 4.5 s  read 3,921,500  parsed 3,920,400  written 3,919,100  memory    63 MiB
+ 4.6 s  read 4,000,000  parsed 4,000,000  written 4,000,000  memory    64 MiB
+status 200: 3,600,712
+status 304:   199,442
+status 404:   159,832
+status 500:    40,014
+done in 4.6 s, peak memory 68 MiB, GC pauses 0.9 s
+4 writers, 506,600 lines out of order
+reading RanToCompletion, parsing RanToCompletion, writing RanToCompletion
+(exit code 0)

@@ -16,9 +16,8 @@ the code also runs on .NET 10.
 | [4. The thread pool and Task](part-04-thread-pool-and-task/) | our own thread pool, then our own Task | If threads are expensive, who runs `Task.Run`? |
 | [5. async/await in use](part-05-async-await/) | a TCP chat server | How do 10,000 connections fit on 12 threads? |
 | [6. Under await](part-06-under-await/) | async/await from scratch | What does `await` actually save, and where does it resume? |
+| [7. Pipelines and backpressure](part-07-pipelines-and-backpressure/) | a log processing pipeline | What happens when one stage is faster than the next? |
 | [8. Data parallelism](part-08-data-parallelism/) | a fast CSV analytics engine | When does adding cores stop helping? |
-
-More parts are added as their videos are published.
 
 This is teaching code. It is kept simple on purpose, so every line can be followed. It is not
 meant for production.

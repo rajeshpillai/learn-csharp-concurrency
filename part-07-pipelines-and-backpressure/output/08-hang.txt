@@ -1,0 +1,18 @@
+$ dotnet run -- ../bad.log 4
+ 0.5 s  read   336,600  parsed   335,600  written   335,500  memory    60 MiB
+ 1.0 s  read   566,000  parsed   564,900  written   564,700  memory    61 MiB
+ 1.5 s  read   790,900  parsed   789,900  written   789,600  memory    62 MiB
+ 2.0 s  read 1,057,200  parsed 1,056,100  written 1,054,800  memory    63 MiB
+ 2.5 s  read 1,641,500  parsed 1,640,400  written 1,640,000  memory    68 MiB
+ 3.0 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    68 MiB
+ 3.5 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    68 MiB
+ 4.0 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    68 MiB
+ 4.5 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    68 MiB
+ 5.0 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    68 MiB
+ 5.5 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    68 MiB
+ 6.0 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    68 MiB
+ 6.5 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    68 MiB
+ 7.0 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    68 MiB
+ 7.5 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    68 MiB
+^C
+(exit code 130)

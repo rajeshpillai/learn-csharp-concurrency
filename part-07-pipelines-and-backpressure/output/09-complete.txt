@@ -1,0 +1,23 @@
+$ dotnet run -- ../bad.log 4
+ 0.5 s  read   318,100  parsed   317,100  written   316,800  memory    63 MiB
+ 1.0 s  read   563,200  parsed   562,100  written   561,900  memory    64 MiB
+ 1.5 s  read   809,700  parsed   808,600  written   808,300  memory    64 MiB
+ 2.0 s  read 1,114,300  parsed 1,113,200  written 1,111,900  memory    66 MiB
+ 2.5 s  read 1,661,900  parsed 1,660,800  written 1,660,200  memory    68 MiB
+parsing stopped: The string 'this' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+writer stopped: The string 'this' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+writer stopped: The string 'this' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+writer stopped: The string 'this' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+writer stopped: The string 'this' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+ 3.0 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    72 MiB
+ 3.5 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    72 MiB
+ 4.0 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    72 MiB
+ 4.5 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    72 MiB
+ 5.0 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    72 MiB
+ 5.5 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    72 MiB
+ 6.0 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    72 MiB
+ 6.5 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    72 MiB
+ 7.0 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    73 MiB
+ 7.5 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    73 MiB
+^C
+(exit code 130)

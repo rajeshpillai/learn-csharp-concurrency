@@ -1,0 +1,9 @@
+The template "Console App" was created successfully.
+
+Processing post-creation actions...
+Restoring logs/logs.csproj:
+  Determining projects to restore...
+  Restored logs/logs.csproj (in 5 ms).
+Restore succeeded.
+
+

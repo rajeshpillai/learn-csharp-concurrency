@@ -1,0 +1,17 @@
+$ DOTNET_GCHeapHardLimit=0x20000000 dotnet run
+ 0.5 s  read 1,141,268  parsed   184,410  written    27,968  memory   296 MiB
+ 1.0 s  read 2,152,943  parsed   340,711  written   100,869  memory   497 MiB
+ 1.5 s  read 2,909,608  parsed   413,680  written   139,115  memory   555 MiB
+ 2.2 s  read 2,993,845  parsed   422,683  written   146,672  memory   561 MiB
+Unhandled exception. System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.String.Ctor(ReadOnlySpan`1 value)
+   at System.IO.StreamReader.ReadLine()
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0() in Program.cs:line 19
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Program.<Main>$(String[] args) in Program.cs:line 56
+   at Program.<Main>(String[] args)
+(exit code 134)

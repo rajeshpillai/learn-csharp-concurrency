@@ -1,0 +1,4 @@
+$ dotnet run
+round 1: 4,000,000 lines, File.ReadLines 303 ms, ReadLines 1,323 ms
+round 2: 4,000,000 lines, File.ReadLines 286 ms, ReadLines 642 ms
+round 3: 4,000,000 lines, File.ReadLines 212 ms, ReadLines 541 ms

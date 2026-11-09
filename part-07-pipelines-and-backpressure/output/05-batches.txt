@@ -1,0 +1,18 @@
+$ dotnet run
+ 0.5 s  read   226,500  parsed   225,400  written   224,300  memory    60 MiB
+ 1.0 s  read   395,800  parsed   394,700  written   393,600  memory    61 MiB
+ 1.5 s  read   549,400  parsed   548,300  written   547,200  memory    61 MiB
+ 2.0 s  read   745,000  parsed   743,900  written   742,800  memory    62 MiB
+ 2.5 s  read 1,115,400  parsed 1,114,300  written 1,113,200  memory    63 MiB
+ 3.0 s  read 1,593,000  parsed 1,591,900  written 1,590,900  memory    63 MiB
+ 3.5 s  read 2,090,500  parsed 2,089,400  written 2,088,300  memory    63 MiB
+ 4.0 s  read 2,573,800  parsed 2,572,700  written 2,571,600  memory    63 MiB
+ 4.5 s  read 3,075,900  parsed 3,074,800  written 3,073,800  memory    63 MiB
+ 5.0 s  read 3,533,900  parsed 3,532,800  written 3,531,700  memory    63 MiB
+ 5.5 s  read 3,922,500  parsed 3,921,400  written 3,920,300  memory    63 MiB
+ 5.6 s  read 4,000,000  parsed 4,000,000  written 4,000,000  memory    64 MiB
+status 200: 3,600,712
+status 304:   199,442
+status 404:   159,832
+status 500:    40,014
+done in 5.6 s, peak memory 64 MiB, GC pauses 0.5 s

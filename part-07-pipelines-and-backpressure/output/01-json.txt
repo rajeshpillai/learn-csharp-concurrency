@@ -1,0 +1,3 @@
+$ head -2 access.json
+{"Time":"2026-11-09T00:00:00.02Z","Ip":"85C816BA4511F472","Method":"GET","Path":"/api/users/26260","Status":200,"Bytes":3638,"Ms":58}
+{"Time":"2026-11-09T00:00:00.027Z","Ip":"816DE3E4E1A5C3B6","Method":"GET","Path":"/api/orders/26025","Status":200,"Bytes":16319,"Ms":35}

@@ -1,0 +1,2 @@
+$ dotnet run -- 4000000 ../bad.log 2000000
+wrote 4,000,000 lines to ../bad.log, 265 MiB

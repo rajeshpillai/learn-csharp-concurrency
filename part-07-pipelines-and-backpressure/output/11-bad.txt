@@ -1,0 +1,18 @@
+$ dotnet run -- ../bad.log 4
+ 0.5 s  read   355,300  parsed   354,200  written   354,000  memory    61 MiB
+ 1.0 s  read   574,200  parsed   573,100  written   572,700  memory    61 MiB
+ 1.5 s  read   800,000  parsed   798,900  written   798,800  memory    62 MiB
+ 2.0 s  read 1,053,600  parsed 1,052,600  written 1,052,300  memory    64 MiB
+ 2.5 s  read 1,373,200  parsed 1,372,100  written 1,370,700  memory    64 MiB
+parsing stopped: The string 'this' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+reading stopped: The operation was canceled.
+writing stopped: A task was canceled.
+the pipeline did not finish
+ 3.0 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    66 MiB
+status 200: 1,800,376
+status 304:    99,653
+status 404:    79,895
+status 500:    19,976
+done in 3.0 s, peak memory 67 MiB, GC pauses 0.4 s
+4 writers, 463,700 lines out of order
+reading Canceled, parsing Faulted, writing Canceled

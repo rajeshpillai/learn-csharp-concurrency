@@ -1,0 +1,5 @@
+writers   seconds, three runs   middle   lines out of order (middle)
+      1   5.7 5.5 5.5              5.5   0
+      2   4.3 4.0 4.5              4.3   506,600
+      4   3.6 3.6 3.7              3.6   499,800
+      8   3.6 3.9 3.5              3.6   747,400

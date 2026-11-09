@@ -1,0 +1,2 @@
+$ dotnet run -- 4000000 ../access.log
+wrote 4,000,000 lines to ../access.log, 265 MiB

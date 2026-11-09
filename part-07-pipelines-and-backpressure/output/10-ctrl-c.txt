@@ -1,0 +1,21 @@
+$ dotnet run -- ../access.log 4
+ 0.5 s  read   332,200  parsed   331,200  written   331,100  memory    61 MiB
+ 1.0 s  read   566,000  parsed   564,900  written   564,600  memory    62 MiB
+ 1.5 s  read   803,600  parsed   802,500  written   802,100  memory    64 MiB
+^C
+writer stopped: A task was canceled.
+writer stopped: A task was canceled.
+parsing stopped: A task was canceled.
+writer stopped: A task was canceled.
+writer stopped: A task was canceled.
+reading stopped: The operation was canceled.
+the pipeline did not finish
+ 2.0 s  read 1,037,600  parsed 1,036,500  written 1,036,500  memory    66 MiB
+status 200:   933,139
+status 304:    51,606
+status 404:    41,375
+status 500:    10,380
+done in 2.0 s, peak memory 67 MiB, GC pauses 0.2 s
+4 writers, 233,600 lines out of order
+reading Canceled, parsing Canceled, writing Canceled
+(exit code 0)

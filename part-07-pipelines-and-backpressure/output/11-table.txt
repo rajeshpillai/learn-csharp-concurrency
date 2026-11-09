@@ -1,0 +1,5 @@
+writers   our writers (10): seconds, out of order   Parallel.ForEachAsync (11): seconds, out of order
+      1                5.8 s, 0                                                 5.8 s, 0
+      2                4.7 s, 642,200                                           4.7 s, 564,700
+      4                4.3 s, 454,700                                           4.5 s, 443,400
+      8                4.4 s, 724,500                                           4.4 s, 698,500

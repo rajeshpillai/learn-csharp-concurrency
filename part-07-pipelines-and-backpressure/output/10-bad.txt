@@ -1,0 +1,21 @@
+$ dotnet run -- ../bad.log 4
+ 0.5 s  read   392,100  parsed   391,200  written   389,800  memory    59 MiB
+ 1.0 s  read   670,000  parsed   668,900  written   668,800  memory    62 MiB
+ 1.5 s  read   904,100  parsed   903,000  written   902,800  memory    63 MiB
+ 2.0 s  read 1,147,100  parsed 1,146,000  written 1,145,700  memory    64 MiB
+ 2.5 s  read 1,730,800  parsed 1,729,700  written 1,729,400  memory    68 MiB
+parsing stopped: The string 'this' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+writer stopped: The string 'this' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+writer stopped: The string 'this' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+writer stopped: The string 'this' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+writer stopped: The string 'this' was not recognized as a valid DateTime. There is an unknown word starting at index '0'.
+reading stopped: The operation was canceled.
+the pipeline did not finish
+ 2.7 s  read 2,001,000  parsed 1,999,900  written 1,999,900  memory    70 MiB
+status 200: 1,800,376
+status 304:    99,653
+status 404:    79,895
+status 500:    19,976
+done in 2.7 s, peak memory 70 MiB, GC pauses 0.3 s
+4 writers, 404,800 lines out of order
+reading Canceled, parsing Faulted, writing Faulted
