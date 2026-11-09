@@ -1,0 +1,8 @@
+threads: 12
+loaded 10,000,000 rows in 1,531 ms
+built columns in 452 ms
+10 million rows, a for loop              16,918.2 µs
+10 million rows, Parallel.For by row      7,709.1 µs
+10 million rows, chunks of 100,000        2,697.7 µs
+1,000 rows, a for loop                        0.9 µs
+1,000 rows, Parallel.For by row              52.7 µs

@@ -1,0 +1,5 @@
+threads: 12
+loaded 10,000,000 rows in 1,547 ms
+built columns in 326 ms
+Europe   3,288,367,374.62
+query: 2.82 ms, 28.4 GB/s

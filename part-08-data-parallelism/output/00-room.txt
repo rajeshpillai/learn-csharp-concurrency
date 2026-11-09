@@ -1,0 +1,6 @@
+$ df -h .
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  468G  409G   36G  93% /
+$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       7.1Gi       7.0Gi       438Mi       2.6Gi       8.2Gi

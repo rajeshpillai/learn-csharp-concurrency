@@ -1,0 +1,12 @@
+threads: 12
+loaded 10,000,000 rows in 1,511 ms
+built columns in 535 ms
+10 million rows, a for loop              16,409.2 µs
+10 million rows, Parallel.For by row      7,820.8 µs
+10 million rows, chunks of 100,000        2,670.9 µs
+1,000 rows, a for loop                        0.6 µs
+1,000 rows, Parallel.For by row              51.5 µs
+rows over 5,000.00, LINQ                 20,698.0 µs
+rows over 5,000.00, PLINQ                11,427.3 µs
+rows over 5,000.00, PLINQ AsOrdered      30,359.9 µs
+Europe, one shared total                 68,253.9 µs

@@ -1,0 +1,2 @@
+$ dotnet run -- 10000000 sales.csv
+wrote 10,000,000 rows to sales.csv, 307 MiB

@@ -1,0 +1,63 @@
+== 1 threads
+threads: 1
+Vector256: True, AVX2: True, AVX-512: False
+loaded 10,000,000 rows in 1,492 ms
+built columns in 449 ms
+Europe   3,288,367,374.62 scalar
+Europe   3,288,367,374.62 simd
+scalar: 16.05 ms, 5.0 GB/s
+simd:   3.29 ms, 24.3 GB/s
+== 2 threads
+threads: 2
+Vector256: True, AVX2: True, AVX-512: False
+loaded 10,000,000 rows in 1,452 ms
+built columns in 470 ms
+Europe   3,288,367,374.62 scalar
+Europe   3,288,367,374.62 simd
+scalar: 8.40 ms, 9.5 GB/s
+simd:   2.15 ms, 37.3 GB/s
+== 4 threads
+threads: 4
+Vector256: True, AVX2: True, AVX-512: False
+loaded 10,000,000 rows in 1,475 ms
+built columns in 563 ms
+Europe   3,288,367,374.62 scalar
+Europe   3,288,367,374.62 simd
+scalar: 5.42 ms, 14.8 GB/s
+simd:   2.11 ms, 37.8 GB/s
+== 6 threads
+threads: 6
+Vector256: True, AVX2: True, AVX-512: False
+loaded 10,000,000 rows in 1,463 ms
+built columns in 425 ms
+Europe   3,288,367,374.62 scalar
+Europe   3,288,367,374.62 simd
+scalar: 4.09 ms, 19.6 GB/s
+simd:   2.12 ms, 37.7 GB/s
+== 8 threads
+threads: 8
+Vector256: True, AVX2: True, AVX-512: False
+loaded 10,000,000 rows in 1,448 ms
+built columns in 461 ms
+Europe   3,288,367,374.62 scalar
+Europe   3,288,367,374.62 simd
+scalar: 3.12 ms, 25.6 GB/s
+simd:   2.33 ms, 34.4 GB/s
+== 10 threads
+threads: 10
+Vector256: True, AVX2: True, AVX-512: False
+loaded 10,000,000 rows in 1,462 ms
+built columns in 433 ms
+Europe   3,288,367,374.62 scalar
+Europe   3,288,367,374.62 simd
+scalar: 2.89 ms, 27.6 GB/s
+simd:   2.12 ms, 37.7 GB/s
+== 12 threads
+threads: 12
+Vector256: True, AVX2: True, AVX-512: False
+loaded 10,000,000 rows in 1,521 ms
+built columns in 433 ms
+Europe   3,288,367,374.62 scalar
+Europe   3,288,367,374.62 simd
+scalar: 2.86 ms, 28.0 GB/s
+simd:   2.35 ms, 34.0 GB/s

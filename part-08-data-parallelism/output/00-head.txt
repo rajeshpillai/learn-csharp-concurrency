@@ -1,0 +1,5 @@
+$ head -4 sales.csv
+date,region,product,quantity,price_cents
+2025-09-01,Asia,P0126,11,8504
+2025-04-06,MidEast,P0513,4,38086
+2025-03-27,Europe,P0506,7,19109

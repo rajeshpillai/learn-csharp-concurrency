@@ -1,0 +1,42 @@
+== 1 threads
+threads: 1
+loaded 10,000,000 rows in 1,530 ms
+built columns in 481 ms
+Europe   3,288,367,374.62
+query: 16.36 ms, 4.9 GB/s
+== 2 threads
+threads: 2
+loaded 10,000,000 rows in 1,487 ms
+built columns in 287 ms
+Europe   3,288,367,374.62
+query: 8.83 ms, 9.1 GB/s
+== 4 threads
+threads: 4
+loaded 10,000,000 rows in 1,521 ms
+built columns in 428 ms
+Europe   3,288,367,374.62
+query: 5.17 ms, 15.5 GB/s
+== 6 threads
+threads: 6
+loaded 10,000,000 rows in 1,523 ms
+built columns in 480 ms
+Europe   3,288,367,374.62
+query: 3.89 ms, 20.6 GB/s
+== 8 threads
+threads: 8
+loaded 10,000,000 rows in 1,466 ms
+built columns in 487 ms
+Europe   3,288,367,374.62
+query: 3.22 ms, 24.8 GB/s
+== 10 threads
+threads: 10
+loaded 10,000,000 rows in 1,441 ms
+built columns in 551 ms
+Europe   3,288,367,374.62
+query: 2.92 ms, 27.4 GB/s
+== 12 threads
+threads: 12
+loaded 10,000,000 rows in 1,441 ms
+built columns in 490 ms
+Europe   3,288,367,374.62
+query: 2.78 ms, 28.7 GB/s

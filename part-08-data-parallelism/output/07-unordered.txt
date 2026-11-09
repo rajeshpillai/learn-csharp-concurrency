@@ -1,0 +1,4 @@
+loaded 10,000,000 rows in 1,548 ms
+run 1: 432 ms, 1,249,479 rows, first 2025-06-27,Europe,P0260,5,33891
+run 2: 568 ms, 1,249,479 rows, first 2025-03-27,Europe,P0506,7,19109
+run 3: 398 ms, 1,249,479 rows, first 2025-03-27,Europe,P0506,7,19109

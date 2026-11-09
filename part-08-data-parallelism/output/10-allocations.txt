@@ -1,0 +1,13 @@
+threads: 12
+loaded 10,000,000 rows in 1,407 ms
+run 1: 532 ms, allocated 2,302 MiB, 386 collections
+run 2: 389 ms, allocated 2,302 MiB, 386 collections
+run 3: 395 ms, allocated 2,302 MiB, 386 collections
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12

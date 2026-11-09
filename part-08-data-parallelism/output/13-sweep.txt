@@ -1,0 +1,8 @@
+threads       scalar               simd
+      1     16.05 ms    5.0 GB/s      3.29 ms   24.3 GB/s
+      2      8.40 ms    9.5 GB/s      2.15 ms   37.3 GB/s
+      4      5.42 ms   14.8 GB/s      2.11 ms   37.8 GB/s
+      6      4.09 ms   19.6 GB/s      2.12 ms   37.7 GB/s
+      8      3.12 ms   25.6 GB/s      2.33 ms   34.4 GB/s
+     10      2.89 ms   27.6 GB/s      2.12 ms   37.7 GB/s
+     12      2.86 ms   28.0 GB/s      2.35 ms   34.0 GB/s

@@ -1,0 +1,16 @@
+11.0.100-rc.3.26522.148
+Microsoft.NETCore.App 8.0.27 [/home/rajesh/.dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 9.0.15 [/home/rajesh/.dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 10.0.10 [/home/rajesh/.dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 11.0.0-preview.7.26381.103 [/home/rajesh/.dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 11.0.0-rc.3.26522.148 [/home/rajesh/.dotnet/shared/Microsoft.NETCore.App]
+Linux 7.0.0-42-generic
+CPU(s):                                  12
+Model name:                              12th Gen Intel(R) Core(TM) i5-1235U
+Thread(s) per core:                      2
+Core(s) per socket:                      10
+CPU(s) scaling MHz:                      28%
+L2 cache:                                6.5 MiB (4 instances)
+L3 cache:                                12 MiB (1 instance)
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       6.9Gi       7.2Gi       202Mi       2.4Gi       8.3Gi

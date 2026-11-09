@@ -1,0 +1,98 @@
+== 1 threads
+threads: 1
+loaded 10,000,000 rows in 1,452 ms
+run 1: 1,197 ms
+run 2: 1,128 ms
+run 3: 1,122 ms
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12
+== 2 threads
+threads: 2
+loaded 10,000,000 rows in 1,464 ms
+run 1: 755 ms
+run 2: 590 ms
+run 3: 592 ms
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12
+== 4 threads
+threads: 4
+loaded 10,000,000 rows in 1,532 ms
+run 1: 651 ms
+run 2: 414 ms
+run 3: 439 ms
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12
+== 6 threads
+threads: 6
+loaded 10,000,000 rows in 1,436 ms
+run 1: 689 ms
+run 2: 363 ms
+run 3: 372 ms
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12
+== 8 threads
+threads: 8
+loaded 10,000,000 rows in 1,458 ms
+run 1: 436 ms
+run 2: 373 ms
+run 3: 355 ms
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12
+== 10 threads
+threads: 10
+loaded 10,000,000 rows in 1,437 ms
+run 1: 662 ms
+run 2: 384 ms
+run 3: 388 ms
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12
+== 12 threads
+threads: 12
+loaded 10,000,000 rows in 1,499 ms
+run 1: 556 ms
+run 2: 399 ms
+run 3: 392 ms
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12

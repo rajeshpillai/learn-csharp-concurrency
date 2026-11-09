@@ -1,0 +1,8 @@
+threads  run 3
+      1       762 ms
+      2       384 ms
+      4       237 ms
+      6       179 ms
+      8       148 ms
+     10       125 ms
+     12       124 ms

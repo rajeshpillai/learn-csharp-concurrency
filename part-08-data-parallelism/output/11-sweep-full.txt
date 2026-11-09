@@ -1,0 +1,98 @@
+== 1 threads
+threads: 1
+loaded 10,000,000 rows in 1,523 ms
+run 1: 859 ms, allocated 0 MiB, 0 collections
+run 2: 763 ms, allocated 0 MiB, 0 collections
+run 3: 762 ms, allocated 0 MiB, 0 collections
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12
+== 2 threads
+threads: 2
+loaded 10,000,000 rows in 1,454 ms
+run 1: 612 ms, allocated 0 MiB, 0 collections
+run 2: 383 ms, allocated 0 MiB, 0 collections
+run 3: 384 ms, allocated 0 MiB, 0 collections
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12
+== 4 threads
+threads: 4
+loaded 10,000,000 rows in 1,517 ms
+run 1: 371 ms, allocated 0 MiB, 0 collections
+run 2: 239 ms, allocated 0 MiB, 0 collections
+run 3: 237 ms, allocated 0 MiB, 0 collections
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12
+== 6 threads
+threads: 6
+loaded 10,000,000 rows in 1,463 ms
+run 1: 751 ms, allocated 0 MiB, 0 collections
+run 2: 177 ms, allocated 0 MiB, 0 collections
+run 3: 179 ms, allocated 0 MiB, 0 collections
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12
+== 8 threads
+threads: 8
+loaded 10,000,000 rows in 1,461 ms
+run 1: 493 ms, allocated 0 MiB, 0 collections
+run 2: 148 ms, allocated 0 MiB, 0 collections
+run 3: 148 ms, allocated 0 MiB, 0 collections
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12
+== 10 threads
+threads: 10
+loaded 10,000,000 rows in 1,510 ms
+run 1: 499 ms, allocated 0 MiB, 0 collections
+run 2: 126 ms, allocated 0 MiB, 0 collections
+run 3: 125 ms, allocated 0 MiB, 0 collections
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12
+== 12 threads
+threads: 12
+loaded 10,000,000 rows in 1,503 ms
+run 1: 450 ms, allocated 0 MiB, 0 collections
+run 2: 125 ms, allocated 0 MiB, 0 collections
+run 3: 124 ms, allocated 0 MiB, 0 collections
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12

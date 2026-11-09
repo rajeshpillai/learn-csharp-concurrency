@@ -1,0 +1,8 @@
+threads       query
+      1     16.36 ms    4.9 GB/s
+      2      8.83 ms    9.1 GB/s
+      4      5.17 ms   15.5 GB/s
+      6      3.89 ms   20.6 GB/s
+      8      3.22 ms   24.8 GB/s
+     10      2.92 ms   27.4 GB/s
+     12      2.78 ms   28.7 GB/s

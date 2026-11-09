@@ -1,0 +1,9 @@
+The template "Console App" was created successfully.
+
+Processing post-creation actions...
+Restoring csv/csv.csproj:
+  Determining projects to restore...
+  Restored csv/csv.csproj (in 0.8 ms).
+Restore succeeded.
+
+

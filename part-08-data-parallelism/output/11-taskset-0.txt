@@ -1,0 +1,14 @@
+$ taskset -c 0 ./bin/Release/net11.0/csv
+threads: 1
+loaded 10,000,000 rows in 1,408 ms
+run 1: 1,635 ms, allocated 0 MiB, 0 collections
+run 2: 2,399 ms, allocated 0 MiB, 0 collections
+run 3: 792 ms, allocated 0 MiB, 0 collections
+Africa     3,285,656,773.16
+Asia       3,282,786,773.59
+Europe     3,288,367,374.62
+India      3,285,270,845.90
+LatAm      3,290,572,336.25
+MidEast    3,286,072,449.75
+NorthAm    3,286,878,221.63
+Oceania    3,290,362,957.12

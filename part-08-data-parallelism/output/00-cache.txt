@@ -1,0 +1,4 @@
+$ dd if=sales.csv of=/dev/null bs=1M
+322084329 bytes (322 MB, 307 MiB) copied, 0.0353311 s, 9.1 GB/s
+$ dd if=sales.csv of=/dev/null bs=1M
+322084329 bytes (322 MB, 307 MiB) copied, 0.0343285 s, 9.4 GB/s
